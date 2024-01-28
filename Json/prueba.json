@@ -1,0 +1,20 @@
+{  
+  "operations": [
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_6b27b86f7fd2074f08026568",
+        "label": "Acompañamiento de clientes",
+        "query": "(acompañamiento||\"ayuda financiera\"||comprensión||comprender||comprende||comprension||compromiso||comprenden||asesoría||asesoria||asesoramiento||cercania||flexibilidad||asistencia||apoyo||apoyado||colaboracion||colaboración||ayuda||ayudaron||ayudó||acompañar||acompañaron||asistió)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_361e50490468ce516b7424d6",
+        "label": "App funcionamiento",
+        "query": "(mobile ||  App || \"mobile banking\"||mobilebanking||aplicación || app) &  (funcionamiento||\"no funciona\"||\"no anda\"||anda||funciona||funcionaba||anda||anduvo||\"abre\")"
+      }
+    }
+  ]
+}

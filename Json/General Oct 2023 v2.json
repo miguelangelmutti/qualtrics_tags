@@ -1,0 +1,1347 @@
+{
+  "version": "2.0",
+  "operations": [
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_2d9fc640f4b3f2c6433933d4",
+        "label": "Acompañamiento de clientes",
+        "query": "(acompañamiento||\"ayuda financiera\"||comprensión||comprender||comprende||comprension||compromiso||comprenden||asesoría||asesoria||asesoramiento||cercania||flexibilidad||asistencia||apoyo||apoyado||colaboracion||colaboración||ayuda||ayudaron||ayudó||acompañar||acompañaron||asistió||orientación||ayudo)",
+        "baseQuery": "(acompañamiento||\"ayuda financiera\"||comprensión||comprender||comprende||comprension||compromiso||comprenden||asesoría||asesoria||asesoramiento||cercania||flexibilidad||asistencia||apoyo||apoyado||colaboracion||colaboración||ayuda||ayudaron||ayudó||acompañar||acompañaron||asistió||orientación||ayudo)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_21026d9d9947cd76983d8ffa",
+        "label": "Atención del ejecutivo",
+        "query": "( (atención ||atienden|| atendido || atendida ||atender|| servicio || actitud || predisposición||atancion||maltrato||maltratad||dispuest|| serviciales||atension||servicio||trato||tratan||asesoran||asesoramiento||conocimiento|| maltrato||maltratan||compromiso|| cordial|| cordiales || cordialidad||atento || atentos || cordialidad || amable ||profesionalidad||cordialidad||amabilidad||cordial||expeditivo||amables||amabilidad||cordialidad||profesionalismo||atento||atenta||profesional||dispuesta||simpatico||simpatia||dispuesto ||extraordinaria||educado||maltrato||maltratado))&&((ejecutivo||ejecutiva|| oficial || personal ||empleado||asesor|| representante) & (atención ||atienden|| atendido || atendida ||atender|| servicio || actitud || predisposición||atancion||maltrato||maltratad||dispuest|| serviciales||atension||servicio||trato||tratan||asesoran||asesoramiento||conocimiento|| maltrato||maltratan||compromiso|| cordial|| cordiales || cordialidad||atento || atentos || cordialidad || amable || coordial||expeditivo||amables||amabilidad||cordialidad||profesionalismo||atento||atenta||profesional||dispuesta||simpatico||simpatia||dispuesto||extraordinaria||educado||maltrato||maltratado) & not (\"cajero automático\"||cajero||mail||chat||whatsapp||correo||online||callcenter||telefonica||super linea||caja||telefonico))",
+        "baseQuery": "(ejecutivo||ejecutiva|| oficial || personal ||empleado||asesor|| representante) & (atención ||atienden|| atendido || atendida ||atender|| servicio || actitud || predisposición||atancion||maltrato||maltratad||dispuest|| serviciales||atension||servicio||trato||tratan||asesoran||asesoramiento||conocimiento|| maltrato||maltratan||compromiso|| cordial|| cordiales || cordialidad||atento || atentos || cordialidad || amable || coordial||expeditivo||amables||amabilidad||cordialidad||profesionalismo||atento||atenta||profesional||dispuesta||simpatico||simpatia||dispuesto||extraordinaria||educado||maltrato||maltratado) & not (\"cajero automático\"||cajero||mail||chat||whatsapp||correo||online||callcenter||telefonica||super linea||caja||telefonico)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_05a88efa3c0bd7b469162570",
+        "label": "Atención en Cajas",
+        "query": "( (atención ||atienden|| atendido || atendida ||atender|| servicio || actitud || predisposición||atancion||maltrato||maltratad||dispuest|| serviciales||atension||servicio||trato||tratan||asesoran||asesoramiento||conocimiento|| maltrato||maltratan||compromiso|| cordial|| cordiales || cordialidad||atento || atentos || cordialidad || amable ||profesionalidad||cordialidad||amabilidad||cordial||expeditivo||amables||amabilidad||cordialidad||profesionalismo||atento||atenta||profesional||dispuesta||simpatico||simpatia||dispuesto ||extraordinaria||educado||maltrato||maltratado))&&((caja||cajas||cajero||cajeras) & (ejecutivo||ejecutiva|| oficial || personal ||empleado||asesor|| representante) & (atención ||atienden|| atendido || atendida ||atender|| servicio || actitud || predisposición||atancion||maltrato||maltratad||dispuest|| serviciales||atension||servicio||trato||tratan||asesoran||asesoramiento||conocimiento|| maltrato||maltratan||compromiso|| cordial|| cordiales || cordialidad||atento || atentos || cordialidad || amable || coordial||expeditivo||amables||amabilidad||cordialidad||profesionalismo||atento||atenta||profesional||dispuesta||simpatico||simpatia||dispuesto||extraordinaria||educado||maltrato||maltratado)  & not (\"cajero automático\"||mail||chat||whatsapp||correo||online||callcenter||telefonica||super linea||caja||chat||mail||whatsapp||app||mobile||homebanking||teléfono || contact || operador|| telefónica||personalizada||terminales||autoservicio))",
+        "baseQuery": "(caja||cajas||cajero||cajeras) & (ejecutivo||ejecutiva|| oficial || personal ||empleado||asesor|| representante) & (atención ||atienden|| atendido || atendida ||atender|| servicio || actitud || predisposición||atancion||maltrato||maltratad||dispuest|| serviciales||atension||servicio||trato||tratan||asesoran||asesoramiento||conocimiento|| maltrato||maltratan||compromiso|| cordial|| cordiales || cordialidad||atento || atentos || cordialidad || amable || coordial||expeditivo||amables||amabilidad||cordialidad||profesionalismo||atento||atenta||profesional||dispuesta||simpatico||simpatia||dispuesto||extraordinaria||educado||maltrato||maltratado)  & not (\"cajero automático\"||mail||chat||whatsapp||correo||online||callcenter||telefonica||super linea||caja||chat||mail||whatsapp||app||mobile||homebanking||teléfono || contact || operador|| telefónica||personalizada||terminales||autoservicio)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_8c158b7f1328aa6041dcee5c",
+        "label": "Atención online",
+        "query": "( (atención ||atienden|| atendido || atendida ||atender|| servicio || actitud || predisposición||atancion||maltrato||maltratad||dispuest|| serviciales||atension||servicio||trato||tratan||asesoran||asesoramiento||conocimiento|| maltrato||maltratan||compromiso|| cordial|| cordiales || cordialidad||atento || atentos || cordialidad || amable ||profesionalidad||cordialidad||amabilidad||cordial||expeditivo||amables||amabilidad||cordialidad||profesionalismo||atento||atenta||profesional||dispuesta||simpatico||simpatia||dispuesto ||extraordinaria||educado||maltrato||maltratado))&&((chat||mail||whatsapp||mensaje||online||email||correo) & (atención||atienden|| atendido || atendida ||atender|| servicio || actitud || predisposición ||serviciales||trato||tratan||asesoran||asesoramiento||conocimiento|| maltrato||maltratan||compromiso|| cordial|| cordiales || cordialidad||atento || atentos || cordialidad || amable || amables||amabilidad||rapido||sencillo||atendio||atencion||comunicacion||comunicar||hablar||contestar||contesto||maltrato||maltratado) & not (andreani||correo||online banking||tarjeta))",
+        "baseQuery": "(chat||mail||whatsapp||mensaje||online||email||correo) & (atención||atienden|| atendido || atendida ||atender|| servicio || actitud || predisposición ||serviciales||trato||tratan||asesoran||asesoramiento||conocimiento|| maltrato||maltratan||compromiso|| cordial|| cordiales || cordialidad||atento || atentos || cordialidad || amable || amables||amabilidad||rapido||sencillo||atendio||atencion||comunicacion||comunicar||hablar||contestar||contesto||maltrato||maltratado) & not (andreani||correo||online banking||tarjeta)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_4cb2eba5bbedda7e0308896d",
+        "label": "Atención personalizada",
+        "query": "( (atención ||atienden|| atendido || atendida ||atender|| servicio || actitud || predisposición||atancion||maltrato||maltratad||dispuest|| serviciales||atension||servicio||trato||tratan||asesoran||asesoramiento||conocimiento|| maltrato||maltratan||compromiso|| cordial|| cordiales || cordialidad||atento || atentos || cordialidad || amable ||profesionalidad||cordialidad||amabilidad||cordial||expeditivo||amables||amabilidad||cordialidad||profesionalismo||atento||atenta||profesional||dispuesta||simpatico||simpatia||dispuesto ||extraordinaria||educado||maltrato||maltratado))&&((personalizada) &(atención ||atienden|| atendido || atendida||atendieron ||atender|| servicio || actitud || predisposición || serviciales||trato||tratan||asesoran||asesoramiento||conocimiento|| maltrato||maltratan||compromiso|| cordial|| cordiales || cordialidad||atento || atentos || cordialidad || amable || amables||amabilidad||maltrato||maltratado))",
+        "baseQuery": "(personalizada) &(atención ||atienden|| atendido || atendida||atendieron ||atender|| servicio || actitud || predisposición || serviciales||trato||tratan||asesoran||asesoramiento||conocimiento|| maltrato||maltratan||compromiso|| cordial|| cordiales || cordialidad||atento || atentos || cordialidad || amable || amables||amabilidad||maltrato||maltratado)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_dead2f1f9fc515f92873e3a8",
+        "label": "Atención sucursales",
+        "query": "( (atención ||atienden|| atendido || atendida ||atender|| servicio || actitud || predisposición||atancion||maltrato||maltratad||dispuest|| serviciales||atension||servicio||trato||tratan||asesoran||asesoramiento||conocimiento|| maltrato||maltratan||compromiso|| cordial|| cordiales || cordialidad||atento || atentos || cordialidad || amable ||profesionalidad||cordialidad||amabilidad||cordial||expeditivo||amables||amabilidad||cordialidad||profesionalismo||atento||atenta||profesional||dispuesta||simpatico||simpatia||dispuesto ||extraordinaria||educado||maltrato||maltratado))&&((sucursales||sucursal||caja||cajero||cajeros||cajas)  & (atención ||atienden|| atendido || atendida||atendieron ||atender|| servicio || actitud || predisposición || serviciales||trato||tratan||asesoran||asesoramiento||conocimiento|| maltrato||maltratan||compromiso|| cordial|| cordiales || cordialidad||atento || atentos || cordialidad || amable || amables||amabilidad||maltrato||maltratado) & not (automatico))",
+        "baseQuery": "(sucursales||sucursal||caja||cajero||cajeros||cajas)  & (atención ||atienden|| atendido || atendida||atendieron ||atender|| servicio || actitud || predisposición || serviciales||trato||tratan||asesoran||asesoramiento||conocimiento|| maltrato||maltratan||compromiso|| cordial|| cordiales || cordialidad||atento || atentos || cordialidad || amable || amables||amabilidad||maltrato||maltratado) & not (automatico)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_a2837e435aef3a6f649a1287",
+        "label": "Atención telefónica",
+        "query": "( (atención ||atienden|| atendido || atendida ||atender|| servicio || actitud || predisposición||atancion||maltrato||maltratad||dispuest|| serviciales||atension||servicio||trato||tratan||asesoran||asesoramiento||conocimiento|| maltrato||maltratan||compromiso|| cordial|| cordiales || cordialidad||atento || atentos || cordialidad || amable ||profesionalidad||cordialidad||amabilidad||cordial||expeditivo||amables||amabilidad||cordialidad||profesionalismo||atento||atenta||profesional||dispuesta||simpatico||simpatia||dispuesto ||extraordinaria||educado||maltrato||maltratado))&&((teléfono ||contact || operador||telefónica|| superlinea||\"asesora telefonica\"||callcenter||call||telefonico||telefonica) &(atención ||atienden|| atendido || atendida ||atender|| servicio || actitud || predisposición || serviciales || trato|| tratan||asesoran|| asesoramiento ||conocimiento|| maltrato|| maltratan||compromiso || cordial|| cordiales || cordialidad||atento || atentos || cordialidad || amable || amables||amabilidad|| dudas||claridad||eficaz||excelente||exelente||maltrato||maltratado) not (demora || demoran || espera || espere))",
+        "baseQuery": "(teléfono ||contact || operador||telefónica|| superlinea||\"asesora telefonica\"||callcenter||call||telefonico||telefonica) &(atención ||atienden|| atendido || atendida ||atender|| servicio || actitud || predisposición || serviciales || trato|| tratan||asesoran|| asesoramiento ||conocimiento|| maltrato|| maltratan||compromiso || cordial|| cordiales || cordialidad||atento || atentos || cordialidad || amable || amables||amabilidad|| dudas||claridad||eficaz||excelente||exelente||maltrato||maltratado) not (demora || demoran || espera || espere)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_6c2f5b78a44d39c7e854f28c",
+        "label": "Atención gral",
+        "query": " (atención ||atienden|| atendido || atendida ||atender|| servicio || actitud || predisposición||atancion||maltrato||maltratad||dispuest|| serviciales||atension||servicio||trato||tratan||asesoran||asesoramiento||conocimiento|| maltrato||maltratan||compromiso|| cordial|| cordiales || cordialidad||atento || atentos || cordialidad || amable ||profesionalidad||cordialidad||amabilidad||cordial||expeditivo||amables||amabilidad||cordialidad||profesionalismo||atento||atenta||profesional||dispuesta||simpatico||simpatia||dispuesto ||extraordinaria||educado||maltrato||maltratado)",
+        "baseQuery": " (atención ||atienden|| atendido || atendida ||atender|| servicio || actitud || predisposición||atancion||maltrato||maltratad||dispuest|| serviciales||atension||servicio||trato||tratan||asesoran||asesoramiento||conocimiento|| maltrato||maltratan||compromiso|| cordial|| cordiales || cordialidad||atento || atentos || cordialidad || amable ||profesionalidad||cordialidad||amabilidad||cordial||expeditivo||amables||amabilidad||cordialidad||profesionalismo||atento||atenta||profesional||dispuesta||simpatico||simpatia||dispuesto ||extraordinaria||educado||maltrato||maltratado)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_63006f9ff3e4495b8bbac30e",
+        "label": "Imposibilidad de contacto",
+        "query": "(\"no atienden\"~2||\"no atiende\"~2||\"no contestan\"~2|| \"no responden\"~2||\"no responde\"~2||\"imposible comunicarse\"~2||\"imposible contactar\"~2||\nNO CONSTESTAN||no responden||\"nunca atienden\"~2||\"jamas contestan\"~2||\"ni por email\"~2||\"ni por mail\"~2||\"ni telefonicamente\"~2||\"ni telefónicamente\"~2||\"Nadie contesta\"~2||\"no atiende\"~2||\"no logro comunicarme\"2||\"no logro\"~2||\"no responden\"~2||\"jamas responden\"~2||\"nunca me contactaron\"||\"nunca me repondieron\"||\"nunca responden\"||nunca contesto||no tengo respuesta||no me responden||\"jamas contestaron\"~2||dificil contactar||\"no responden\"||nunca me contactaron||nunca me respondieron||jamas me respondio||jamas me contesto||nunca me contesto||nunca me respondio||\nnunca puedo comunicarme)",
+        "baseQuery": "(\"no atienden\"~2||\"no atiende\"~2||\"no contestan\"~2|| \"no responden\"~2||\"no responde\"~2||\"imposible comunicarse\"~2||\"imposible contactar\"~2||\nNO CONSTESTAN||no responden||\"nunca atienden\"~2||\"jamas contestan\"~2||\"ni por email\"~2||\"ni por mail\"~2||\"ni telefonicamente\"~2||\"ni telefónicamente\"~2||\"Nadie contesta\"~2||\"no atiende\"~2||\"no logro comunicarme\"2||\"no logro\"~2||\"no responden\"~2||\"jamas responden\"~2||\"nunca me contactaron\"||\"nunca me repondieron\"||\"nunca responden\"||nunca contesto||no tengo respuesta||no me responden||\"jamas contestaron\"~2||dificil contactar||\"no responden\"||nunca me contactaron||nunca me respondieron||jamas me respondio||jamas me contesto||nunca me contesto||nunca me respondio||\nnunca puedo comunicarme)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_1110d416c6779ab637171f90",
+        "label": "Respuesta",
+        "query": "(respuesta||responden||contestan||contesto||respondieron||respondió||contestó||comunicaron||comunicó||contestación||contestasion||respondida||contacto) & not (veloz||velocidad||velostardanza||demora||agilidad||aigl||ajil||ágil||agilización||agilisadora||giliza||agilisa||agilidad||rapidez||rapides||rapido||rapidisimo||rapidicimo||rápio||rápida||lenta||lentisima||lentidud||lento||lentisimo||dinamico||rapides)",
+        "baseQuery": "(respuesta||responden||contestan||contesto||respondieron||respondió||contestó||comunicaron||comunicó||contestación||contestasion||respondida||contacto) & not (veloz||velocidad||velostardanza||demora||agilidad||aigl||ajil||ágil||agilización||agilisadora||giliza||agilisa||agilidad||rapidez||rapides||rapido||rapidisimo||rapidicimo||rápio||rápida||lenta||lentisima||lentidud||lento||lentisimo||dinamico||rapides)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_7a4c4e3f8151c336d6b65aef",
+        "label": "Contacto / Respuesta"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_da83a9fa388421315ca7d9a8",
+        "label": "Atención"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_8a9a131b9b545f77535d2dd9",
+        "label": "women",
+        "query": "(women||woman)& (suscripcion||promo||promociones || descuentos || ofertas || comodin || voucher||descuento||adhesion||programa)",
+        "baseQuery": "(women||woman)& (suscripcion||promo||promociones || descuentos || ofertas || comodin || voucher||descuento||adhesion||programa)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_bfde06da58e8ff49fd6eb0ac",
+        "label": "Superclub",
+        "query": "(superclub || canje || catalogo || comodines || voucher || premios || canjes)",
+        "baseQuery": "(superclub || canje || catalogo || comodines || voucher || premios || canjes)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_c7a0542181e0abf0062d94de",
+        "label": "Promociones Supermercado/Combustible",
+        "query": "(supermercado||carrefour||coto||ypf||shell || combustible||nafta) & (promociones || promoción || promocion || beneficio || benefecios || descuentos || ofertas)",
+        "baseQuery": "(supermercado||carrefour||coto||ypf||shell || combustible||nafta) & (promociones || promoción || promocion || beneficio || benefecios || descuentos || ofertas)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_168140c81b2b872a6178b996",
+        "label": "Sorpresa",
+        "query": "sorpresa & (promociones || descuentos || ofertas || comodin || voucher)",
+        "baseQuery": "sorpresa & (promociones || descuentos || ofertas || comodin || voucher)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_8c45cfe124b29c012a8f1bae",
+        "label": "Falta promociones",
+        "query": "( falta||faltan||escasa||carecen|| \"no tienen\"|| \"no hay\"|| \"no tengan\"||menos||pocas) & (promociones || promoción || promocion || descuento || descuentos || ofertas)",
+        "baseQuery": "( falta||faltan||escasa||carecen|| \"no tienen\"|| \"no hay\"|| \"no tengan\"||menos||pocas) & (promociones || promoción || promocion || descuento || descuentos || ofertas)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_434af8b91e7a2be365a05339",
+        "label": "Promociones /beneficios",
+        "query": "(promociones || descuentos || ofertas||beneficios|| beneficio || promo || promoción || promocion) & not (superclub || puntos || canje || catalogo || comodines || voucher || premios || canjes) & not (competencia || bancos || galicia ||francés ||hsbc||icbc||macro||citi||citibank||bbva||nación||\"bco ciudad\"|| \"el ciudad\"||bco) & not( falta||faltan||escasa||carecen|| \"no tienen\"|| \"no hay\"|| \"no tengan\") & not (supermercado || combustible||nafta) & not ( \"faltan cuotas\"||\"no tienen cuotas\"||\"no hay cuotas\"||\"cuotas sin interés\") & not (marcas) & not (sorpresa)",
+        "baseQuery": "(promociones || descuentos || ofertas||beneficios|| beneficio || promo || promoción || promocion) & not (superclub || puntos || canje || catalogo || comodines || voucher || premios || canjes) & not (competencia || bancos || galicia ||francés ||hsbc||icbc||macro||citi||citibank||bbva||nación||\"bco ciudad\"|| \"el ciudad\"||bco) & not( falta||faltan||escasa||carecen|| \"no tienen\"|| \"no hay\"|| \"no tengan\") & not (supermercado || combustible||nafta) & not ( \"faltan cuotas\"||\"no tienen cuotas\"||\"no hay cuotas\"||\"cuotas sin interés\") & not (marcas) & not (sorpresa)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_215a8b7aa8ba0225c389f0b1",
+        "label": "Marcas",
+        "query": "(marcas||comercios||locales) & (promociones || descuentos || ofertas || comodin || voucher)",
+        "baseQuery": "(marcas||comercios||locales) & (promociones || descuentos || ofertas || comodin || voucher)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_288b3a852412b7239ad30d93",
+        "label": "Competencia",
+        "query": "(competencia || \"otros bancos\"||\"otro banco\" || galicia ||francés ||hsbc||icbc||macro||citi||citibank||bbva||nación||\"bco ciudad\"|| \"el ciudad\"||\"banco provincia\"||icbc) & (promociones || descuentos || ofertas || comodin || voucher||beneficios||promocion||puntos)",
+        "baseQuery": "(competencia || \"otros bancos\"||\"otro banco\" || galicia ||francés ||hsbc||icbc||macro||citi||citibank||bbva||nación||\"bco ciudad\"|| \"el ciudad\"||\"banco provincia\"||icbc) & (promociones || descuentos || ofertas || comodin || voucher||beneficios||promocion||puntos)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_4ad4c653f35566239e391572",
+        "label": "Faltan cuotas",
+        "query": "( \"faltan cuotas\"||\"no tienen cuotas\"||\"no hay cuotas\"||\"cuotas sin  interés\")",
+        "baseQuery": "( \"faltan cuotas\"||\"no tienen cuotas\"||\"no hay cuotas\"||\"cuotas sin  interés\")"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_284f5e6a79e5aa6f1dc0b3be",
+        "label": "Beneficios"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_688b22bb5b5352f6d8f63592",
+        "label": "Funcionamiento general",
+        "query": "(funcionamiento||funciona||\"no anda\"||no abre||se tildo||tilda||se cae||fuera de servicio||funca||anda||funciona||funcionaba||anda||anduvo || falla|| fall|| \"no me deja\" || traba|| disponible ||da error||se desconecta||error de conexion||traba|| \"no disponible\" || disponibilidad || \" no esta disponible\" || fallo || falló || cuelga||tilda||sin sistema||caidas||funciono||cae||corta || caida||se congela) & not (ejecutivo||cajero||tas||atm||caja||empleado||personal||operadores|| online||oficial||online banking||app||clave||tarjeta||prestamo||transferencias||queja||reclamo ||atencion||atendido|| queja || reclamo||autoservicio||terminal||cajero||billetes||aplicacion||chat||whatsapp||atencion||online||plataforma||efectivo)",
+        "baseQuery": "(funcionamiento||funciona||\"no anda\"||no abre||se tildo||tilda||se cae||fuera de servicio||funca||anda||funciona||funcionaba||anda||anduvo || falla|| fall|| \"no me deja\" || traba|| disponible ||da error||se desconecta||error de conexion||traba|| \"no disponible\" || disponibilidad || \" no esta disponible\" || fallo || falló || cuelga||tilda||sin sistema||caidas||funciono||cae||corta || caida||se congela) & not (ejecutivo||cajero||tas||atm||caja||empleado||personal||operadores|| online||oficial||online banking||app||clave||tarjeta||prestamo||transferencias||queja||reclamo ||atencion||atendido|| queja || reclamo||autoservicio||terminal||cajero||billetes||aplicacion||chat||whatsapp||atencion||online||plataforma||efectivo)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_41464cf2344fd40a1c9923f3",
+        "label": "Sencillez General",
+        "query": "(sencillo||facil||dificil||complicado||sencillez||faciles||facilidad||simple||simpleza||fácil||entendible||\"no se entiende\"||facilita||fasil||facilisimo||facilicimo||fasilidad||facilita||simplificar||intuitivo||rebuscadi||fluido||cencillo||confuso||clara||dinamica||dinámico||fluido||entendible||ameno||facilidad||claridad) & not (ejecutivo ||cajero||tas||atm||caja||empleado ||personal||oficial||onlinebanking||clave||tarjeta||queja||reclamo||resolucion||autoservicio||atencion ||atendieron||facilidad||homebanking||bankin||aplicacion||mobile||atendido||atendio)",
+        "baseQuery": "(sencillo||facil||dificil||complicado||sencillez||faciles||facilidad||simple||simpleza||fácil||entendible||\"no se entiende\"||facilita||fasil||facilisimo||facilicimo||fasilidad||facilita||simplificar||intuitivo||rebuscadi||fluido||cencillo||confuso||clara||dinamica||dinámico||fluido||entendible||ameno||facilidad||claridad) & not (ejecutivo ||cajero||tas||atm||caja||empleado ||personal||oficial||onlinebanking||clave||tarjeta||queja||reclamo||resolucion||autoservicio||atencion ||atendieron||facilidad||homebanking||bankin||aplicacion||mobile||atendido||atendio)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_e861fc3c55b84e84064f22fd",
+        "label": "Practicidad general",
+        "query": "(practicidad|practicos||practico||comodo||util||funcional||comoda||fiable||práctica||amigable||dinámico||práctico||practica||prolijo||practicada||accesible||accesibilidad||intuitiva||dinámico||ordenado||inutil||inutillidad||utilidad||impractica||útil||util||práctica||dinámica||practicidad||friendly||comodidad||\"muy efectivo\") & not (ejecutivo ||cajero||tas||atm||caja|| empleado ||personal||oficial||onlinebanking|| app||clave||tarjeta||queja||reclamo||resolucion||autoservicio||atencion ||atendieron||atencion||atendido||ejecutivo)",
+        "baseQuery": "(practicidad|practicos||practico||comodo||util||funcional||comoda||fiable||práctica||amigable||dinámico||práctico||practica||prolijo||practicada||accesible||accesibilidad||intuitiva||dinámico||ordenado||inutil||inutillidad||utilidad||impractica||útil||util||práctica||dinámica||practicidad||friendly||comodidad||\"muy efectivo\") & not (ejecutivo ||cajero||tas||atm||caja|| empleado ||personal||oficial||onlinebanking|| app||clave||tarjeta||queja||reclamo||resolucion||autoservicio||atencion ||atendieron||atencion||atendido||ejecutivo)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_56a749a652859eef6480ca1d",
+        "label": "Funcionamiento"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_4ecc4a98fb089e1c7dee814e",
+        "label": "Límites",
+        "query": "(Límites||límite|| limite || Limite||\"línea de tarjeta\"||\"línea de crédito\"||descubierto||\"liberen saldo\" || cupo||crediticia||aumento de credito) & (aumento || aumentos || extención || extension|| ampliacion|| aumento||aumentar || bajo || ampliar || menos || actualizar || poco || reducir||\"no ofrecen\"||no hay||liberar||me cortaron||me bajaron||cupo||limite||disponible||evaluacion||tarjeta||credito||extender) & not (cajero||terminal||canales automáticos||dinero||plata||billete)",
+        "baseQuery": "(Límites||límite|| limite || Limite||\"línea de tarjeta\"||\"línea de crédito\"||descubierto||\"liberen saldo\" || cupo||crediticia||aumento de credito) & (aumento || aumentos || extención || extension|| ampliacion|| aumento||aumentar || bajo || ampliar || menos || actualizar || poco || reducir||\"no ofrecen\"||no hay||liberar||me cortaron||me bajaron||cupo||limite||disponible||evaluacion||tarjeta||credito||extender) & not (cajero||terminal||canales automáticos||dinero||plata||billete)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_c2edd176e032da7f882b0003",
+        "label": "Oferta de crédito",
+        "query": "(\"no me dan\"||\"no me otorgan\"||\"no ofrecen\"||no me quieren dar||no accedo||me niegan||no me lo dieron||me dieron||nunca me dieron||nunca me ofrecieron||nunca me aceptaron) & (tarjeta||credito||crédito||visa||amex||master||american)",
+        "baseQuery": "(\"no me dan\"||\"no me otorgan\"||\"no ofrecen\"||no me quieren dar||no accedo||me niegan||no me lo dieron||me dieron||nunca me dieron||nunca me ofrecieron||nunca me aceptaron) & (tarjeta||credito||crédito||visa||amex||master||american)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_f1e6a884ba10a6f103f8d079",
+        "label": "Riesgo de crédito"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_13da2d09d24f0d18a19b82d1",
+        "label": "Baja de Productos",
+        "query": "(cierre||baja||cerraron||cancelar||cancelaron||anular||anularon||suspendieron||suspender) &(productos||cuenta||cuentas||tarjeta||targeta||visa||amex||corriente||master||caa de ahorro)",
+        "baseQuery": "(cierre||baja||cerraron||cancelar||cancelaron||anular||anularon||suspendieron||suspender) &(productos||cuenta||cuentas||tarjeta||targeta||visa||amex||corriente||master||caa de ahorro)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_df2587320fab263acc75c688",
+        "label": "Baja Productos"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_76a10bd3c39d627dcd8c8d3d",
+        "label": "Problemas TAS",
+        "query": "(reclamo||queja||reclamé||problema||reclamé) & (autoservicio||tas||\"terminal de autoservicio\"||\"terminales de autoservicio\"||terminales)",
+        "baseQuery": "(reclamo||queja||reclamé||problema||reclamé) & (autoservicio||tas||\"terminal de autoservicio\"||\"terminales de autoservicio\"||terminales)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_4ce5392fc409ff4620d2864a",
+        "label": "Resolución de reclamos",
+        "query": "(reclamo||queja||problema||reclamé) & (resuelven||resolución||respuesta||solución||explicación||explicaciones||soluciones||solucionan||resoluciones||resolutivo||resuelto||solucionado)",
+        "baseQuery": "(reclamo||queja||problema||reclamé) & (resuelven||resolución||respuesta||solución||explicación||explicaciones||soluciones||solucionan||resoluciones||resolutivo||resuelto||solucionado)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_4585cbb2b9a7fc10b327dfb2",
+        "label": "Estafas",
+        "query": "Estafa||estafas||estafaron||estafan||hackearon",
+        "baseQuery": "Estafa||estafas||estafaron||estafan||hackearon"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_eef27ddd8a0e8447eb903bd6",
+        "label": "Problema comisiones",
+        "query": "(reclamo||queja||problema||reclamé)& (comision || comisión||mantenimiento||renovación||bonificación||bonificar||cobro)",
+        "baseQuery": "(reclamo||queja||problema||reclamé)& (comision || comisión||mantenimiento||renovación||bonificación||bonificar||cobro)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_c161304bccb569126aa1b86e",
+        "label": "Desconocimiento de contratación",
+        "query": "(\"no contrate\"||\"no lo contrate\"||\"nunca contrate\"||\"nunca contraté\"||\"no consentimiento\"||\"no compre\"||\"no firme\"||desconoci|| desconocimiento|| encajaron||\"sin mi consentimiento\"||\"no consenti\"||\"no fue requerida\"||\"no acepte\"||\"no fue requerido\"||\"no saque\"||\"no lo contrate\"||\"no lo compre\"||\"no lo elegi\")",
+        "baseQuery": "(\"no contrate\"||\"no lo contrate\"||\"nunca contrate\"||\"nunca contraté\"||\"no consentimiento\"||\"no compre\"||\"no firme\"||desconoci|| desconocimiento|| encajaron||\"sin mi consentimiento\"||\"no consenti\"||\"no fue requerida\"||\"no acepte\"||\"no fue requerido\"||\"no saque\"||\"no lo contrate\"||\"no lo compre\"||\"no lo elegi\")"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_2dbb2d74da7adfeecdf7a06a",
+        "label": "Problema Impuestos",
+        "query": "(reclamo|| queja||problema||reclamé)  & impuesto",
+        "baseQuery": "(reclamo|| queja||problema||reclamé)  & impuesto"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_a0db049735b199197b9062bc",
+        "label": "Problemas Prestamos",
+        "query": "(reclamos ||quejas||problema||reclamé) & (préstamo||prestamos)",
+        "baseQuery": "(reclamos ||quejas||problema||reclamé) & (préstamo||prestamos)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_0846b88faa5b143246afbd66",
+        "label": "Problemas resumen",
+        "query": "(reclamos||quejas||problemas||reclamé||no mandan||no envian||no me) & (resumen||resumenes||resúmen)",
+        "baseQuery": "(reclamos||quejas||problemas||reclamé||no mandan||no envian||no me) & (resumen||resumenes||resúmen)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_278972a7fdab43e6a1ddfde6",
+        "label": "Problemas Pago Tarjeta",
+        "query": "(reclamo||queja||problema)  & pago & (tarjeta||tarjetas||visa||amex||master||american) not (coordenadas)",
+        "baseQuery": "(reclamo||queja||problema)  & pago & (tarjeta||tarjetas||visa||amex||master||american) not (coordenadas)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_e9e1953917a9475e6eb26d75",
+        "label": "Problemas Superclub",
+        "query": "(reclamos ||quejas||problema) & (superclub || puntos || canje || catalogo || comodines || voucher || premios || canjes)",
+        "baseQuery": "(reclamos ||quejas||problema) & (superclub || puntos || canje || catalogo || comodines || voucher || premios || canjes)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_dff81db268e75592080c76e8",
+        "label": "Problemas Promociones",
+        "query": "(reclamo||queja||problema||reclamé) & (promociones||promoción||promosion || descuentos || ofertas || comodin || voucher)",
+        "baseQuery": "(reclamo||queja||problema||reclamé) & (promociones||promoción||promosion || descuentos || ofertas || comodin || voucher)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_a0b321f9dc67d757e2826f1a",
+        "label": "Reclamos /Quejas"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_08096d0d9f6c39baaaf1e0bd",
+        "label": "Uso en exterior",
+        "query": "(tarjeta||visa||amex||american||targeta||latarjeta||latargeta||\"la de crédito\"||\"la de credito\"||plastico)&&((tarjeta||plastico||debito||credito||visa||amex||american||master||targeta) & (viaje||exterior||\"otro país\"))",
+        "baseQuery": "(tarjeta||plastico||debito||credito||visa||amex||american||master||targeta) & (viaje||exterior||\"otro país\")"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_bb152eaee37e3e6f9641a786",
+        "label": "Refinanciacion",
+        "query": "(tarjeta||visa||amex||american||targeta||latarjeta||latargeta||\"la de crédito\"||\"la de credito\"||plastico)&&((refinanciación || mora||\"falta de pago\") & (tarjeta||plástico||débito||visa||amex||master||targeta||american) & not (coordenadas))",
+        "baseQuery": "(refinanciación || mora||\"falta de pago\") & (tarjeta||plástico||débito||visa||amex||master||targeta||american) & not (coordenadas)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_f24f4f5d77c9e2d46375fbf6",
+        "label": "Habilitacion",
+        "query": "(tarjeta||visa||amex||american||targeta||latarjeta||latargeta||\"la de crédito\"||\"la de credito\"||plastico)&&((habilitar||habilitaron||inhabilitaron||habilitacion) & (tarjeta||plástico||débito||targeta||visa||amex||american||master||débito||de debito) not (coordenadas))",
+        "baseQuery": "(habilitar||habilitaron||inhabilitaron||habilitacion) & (tarjeta||plástico||débito||targeta||visa||amex||american||master||débito||de debito) not (coordenadas)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_d2186ddde44216d3006dca10",
+        "label": "Pago de tarjetas",
+        "query": "(tarjeta||visa||amex||american||targeta||latarjeta||latargeta||\"la de crédito\"||\"la de credito\"||plastico)&&((pago||pagar) & (tarjeta||plástico||débito||visa||amex||master||american||targeta) & not (coordenadas) & not (\"mercado pago\"))",
+        "baseQuery": "(pago||pagar) & (tarjeta||plástico||débito||visa||amex||master||american||targeta) & not (coordenadas) & not (\"mercado pago\")"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_e1a7c962ce6853675b1527b0",
+        "label": "Resolución de tarjetas",
+        "query": "(tarjeta||visa||amex||american||targeta||latarjeta||latargeta||\"la de crédito\"||\"la de credito\"||plastico)&&((resolución) & (tarjeta||plástico||débito||visa||amex||master||american||targeta) not (coordenadas))",
+        "baseQuery": "(resolución) & (tarjeta||plástico||débito||visa||amex||master||american||targeta) not (coordenadas)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_4fb6d1912e16c61ad45cb7a5",
+        "label": "Delivery",
+        "query": "(tarjeta||visa||amex||american||targeta||latarjeta||latargeta||\"la de crédito\"||\"la de credito\"||plastico)&&((entrega ||entregan||entregaron|| entrego || entregó|| envío || envió ||enviaron||pedi||pedí||recibí||andreani||\"no tengo la tarjeta\"||\"llego la tarjeta\"||\"llegaron las tarjetas\" \"esperando la tarjeta\" \"esperando las tarjetas\"||delivery||correo||llega)  & (tarjeta||plástico||débito||visa||amex||master||targeta||american) not (coordenadas||pago||encuesta))",
+        "baseQuery": "(entrega ||entregan||entregaron|| entrego || entregó|| envío || envió ||enviaron||pedi||pedí||recibí||andreani||\"no tengo la tarjeta\"||\"llego la tarjeta\"||\"llegaron las tarjetas\" \"esperando la tarjeta\" \"esperando las tarjetas\"||delivery||correo||llega)  & (tarjeta||plástico||débito||visa||amex||master||targeta||american) not (coordenadas||pago||encuesta)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_7cdf3be737572ad43d22c7dc",
+        "label": "Consumo Cuestionado",
+        "query": "(tarjeta||visa||amex||american||targeta||latarjeta||latargeta||\"la de crédito\"||\"la de credito\"||plastico)&&((compra||consumo) & (cuestionada||desconocimiento||desconoci||\"no realice\"||\"no hice\"))",
+        "baseQuery": "(compra||consumo) & (cuestionada||desconocimiento||desconoci||\"no realice\"||\"no hice\")"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_db0c3e69e12268755ffb6ffd",
+        "label": "Bloqueos",
+        "query": "(tarjeta||visa||amex||american||targeta||latarjeta||latargeta||\"la de crédito\"||\"la de credito\"||plastico)&&((bloqueo ||bloquean||bloquear||bloquearon|| rechazo ||rechazada||rechazaron|| denegar ||denegaron|| autorizar || autorizaciones|| comprar||\"no pude comprar\"||\"no aceptan\"||\"no aceptaron\"||rechazar||autorización||autorizaron) &(tarjeta||plástico||débito||credito||visa||amex||master||american||targeta) not (coordenadas) & not (\"mercado pago\") & not (clave||claves||contraseña||usuario))",
+        "baseQuery": "(bloqueo ||bloquean||bloquear||bloquearon|| rechazo ||rechazada||rechazaron|| denegar ||denegaron|| autorizar || autorizaciones|| comprar||\"no pude comprar\"||\"no aceptan\"||\"no aceptaron\"||rechazar||autorización||autorizaron) &(tarjeta||plástico||débito||credito||visa||amex||master||american||targeta) not (coordenadas) & not (\"mercado pago\") & not (clave||claves||contraseña||usuario)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_ac6a8cf611a4dc8f8b3a32df",
+        "label": "Baja de tarjetas",
+        "query": "(tarjeta||visa||amex||american||targeta||latarjeta||latargeta||\"la de crédito\"||\"la de credito\"||plastico)&&((baja tarjeta)~3 or (baja) & (tarjeta||plástico||débito||visa||amex||master||credito||american||targeta) not (coordenadas))",
+        "baseQuery": "(baja tarjeta)~3 or (baja) & (tarjeta||plástico||débito||visa||amex||master||credito||american||targeta) not (coordenadas)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_6d013fafa648058c8e09e130",
+        "label": "Conformidad Tarjetas",
+        "query": "(tarjeta||visa||amex||american||targeta||latarjeta||latargeta||\"la de crédito\"||\"la de credito\"||plastico)&&((todobien||recomendé||recomiendo||son lo mas||ok||okk||conforme|| excelencia||buen banco||\"estoy contento\"  ||contenta|| \"todo bien\" ||  satisfecho||satisfactorio||bien||mal||malo||malisimo||lo  mejor||barbaro||satisfactorio||insatisfecho||excelente||exelente||ecelente||bueno||excelente||”de  diez”||”de 10”||\"sin  problemas\"~2||\"sin inconvenientes\"~2||Buenisima||\"jamás  problemas\"~2||sin problema||\"nunca inconvenientes\"~2||no tuve  inconveniente||\"ningún inconveniente\"~2||\"no  problemas\"~2||\"nunca  problemas\"~2||genial||geniales||grandes||bárbaro||buena||impecable||excelente||desastre||espectacular||genial||perfecto  ||exelente||exelentes||recomiendo||conforme||correcto||\"nunca tuve  problemas\"||\"diez puntos\"||\"10  puntos\"||recomendable||recomendar||recomiendo||aceptable||conforme||conformidad||me  gusta||me encanta||\"no tengo quejas\"||\"gran  banco\"||\"nunca tuve problema\"||\"nunca  problemas\"~2||normal||extraordinario||desastre||pesima||pesimo||\"el  mejor\"||\"el peor\"||deplorable||\"no tengo  quejas\"||\"gran banco\"||\"nunca tuve problema\"  ||satisfacción||cumple||cumplidor||recomiendo||recomendaria ||fantastico||  excelemte|| excelencia || no lo cambio por || encantada || ningún problema ||  imprescindible || horrible || nunca tuve un problema||\"jamás  inconvenientes\"~2 ||\"jamas problema\"~2 ||el peor||el  mejor||ecxelente||buenos||sin problemas||ningun problema) & (tarjeta||targeta||tarjetas||visa||amex||amrican||master||targeta))",
+        "baseQuery": "(todobien||recomendé||recomiendo||son lo mas||ok||okk||conforme|| excelencia||buen banco||\"estoy contento\"  ||contenta|| \"todo bien\" ||  satisfecho||satisfactorio||bien||mal||malo||malisimo||lo  mejor||barbaro||satisfactorio||insatisfecho||excelente||exelente||ecelente||bueno||excelente||”de  diez”||”de 10”||\"sin  problemas\"~2||\"sin inconvenientes\"~2||Buenisima||\"jamás  problemas\"~2||sin problema||\"nunca inconvenientes\"~2||no tuve  inconveniente||\"ningún inconveniente\"~2||\"no  problemas\"~2||\"nunca  problemas\"~2||genial||geniales||grandes||bárbaro||buena||impecable||excelente||desastre||espectacular||genial||perfecto  ||exelente||exelentes||recomiendo||conforme||correcto||\"nunca tuve  problemas\"||\"diez puntos\"||\"10  puntos\"||recomendable||recomendar||recomiendo||aceptable||conforme||conformidad||me  gusta||me encanta||\"no tengo quejas\"||\"gran  banco\"||\"nunca tuve problema\"||\"nunca  problemas\"~2||normal||extraordinario||desastre||pesima||pesimo||\"el  mejor\"||\"el peor\"||deplorable||\"no tengo  quejas\"||\"gran banco\"||\"nunca tuve problema\"  ||satisfacción||cumple||cumplidor||recomiendo||recomendaria ||fantastico||  excelemte|| excelencia || no lo cambio por || encantada || ningún problema ||  imprescindible || horrible || nunca tuve un problema||\"jamás  inconvenientes\"~2 ||\"jamas problema\"~2 ||el peor||el  mejor||ecxelente||buenos||sin problemas||ningun problema) & (tarjeta||targeta||tarjetas||visa||amex||amrican||master||targeta)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_024a9287f4168fd3e8c01399",
+        "label": "Funcionamiento de tarjetas",
+        "query": "(tarjeta||visa||amex||american||targeta||latarjeta||latargeta||\"la de crédito\"||\"la de credito\"||plastico)&&((funcionamiento||funciona||funcionó||funcionaba) & (tarjeta||plástico||débito||visa||amex||master||american||targeta||débito) not (coordenadas))",
+        "baseQuery": "(funcionamiento||funciona||funcionó||funcionaba) & (tarjeta||plástico||débito||visa||amex||master||american||targeta||débito) not (coordenadas)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_8e7d975094e220bfa963d71c",
+        "label": "Resumen",
+        "query": "(tarjeta||visa||amex||american||targeta||latarjeta||latargeta||\"la de crédito\"||\"la de credito\"||plastico)&&((resumen||resumenes||resum||resúmenes) & (tarjeta||plástico||débito||visa||master||amex||american||targeta) not (coordenadas))",
+        "baseQuery": "(resumen||resumenes||resum||resúmenes) & (tarjeta||plástico||débito||visa||master||amex||american||targeta) not (coordenadas)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_0335aaf861c1bb3ae0fe9d40",
+        "label": "Tarjetas",
+        "query": "tarjeta||visa||amex||american||targeta||latarjeta||latargeta||\"la de crédito\"||\"la de credito\"||plastico",
+        "baseQuery": "tarjeta||visa||amex||american||targeta||latarjeta||latargeta||\"la de crédito\"||\"la de credito\"||plastico"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_670497b4a79c57c3364d0586",
+        "label": "Préstamos",
+        "query": "préstamo||prestamos||preaprobado||preacordado||pre acordado||pre aprobado||prendario||hipotecario||\"el crédito\"||\"el credito\"",
+        "baseQuery": "préstamo||prestamos||preaprobado||preacordado||pre acordado||pre aprobado||prendario||hipotecario||\"el crédito\"||\"el credito\""
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_188b7a2c06ba857f62067248",
+        "label": "Préstamo"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_da86c98feccb98b5b1b34605",
+        "label": "Comex",
+        "query": "\"Comercio Exterior\" || \"comercio exterior\" || comex",
+        "baseQuery": "\"Comercio Exterior\" || \"comercio exterior\" || comex"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_4a8921c8e3acdc1890498785",
+        "label": "Comercio Exterior"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_92977877120aac1d2ea0f8b8",
+        "label": "Higiene",
+        "query": "(limpia || limpieza || sucio || sucia || roto || rotos || rota || rotas || vieja ||suciedad|| higiene||manchado||mugre||limpio||olor||alcohol||mal estado||viejo||deteriorado||mugriento) & not (billete||billetes)",
+        "baseQuery": "(limpia || limpieza || sucio || sucia || roto || rotos || rota || rotas || vieja ||suciedad|| higiene||manchado||mugre||limpio||olor||alcohol||mal estado||viejo||deteriorado||mugriento) & not (billete||billetes)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_ae01ef54570901a7369c55a5",
+        "label": "Infraestructura",
+        "query": "(veredas || baldosas || escalones || tacho || roto || baranda || caño || cesto|| alfombra || agujero || agujereado || luces || estropeado || \"aire acondicionado\" || split || abandonado || iluminación || \"mal estado\" || luminaria || rajado || deteriorada || averiado || descompuesto || oscuro|| señalizacion || mampara || sillones || separador || calor || frio || caluroso || manpara||puerta||cerradura||silla) & not (billete || espera || cola || ejecutivo || cajero||app||online banking||web)",
+        "baseQuery": "(veredas || baldosas || escalones || tacho || roto || baranda || caño || cesto|| alfombra || agujero || agujereado || luces || estropeado || \"aire acondicionado\" || split || abandonado || iluminación || \"mal estado\" || luminaria || rajado || deteriorada || averiado || descompuesto || oscuro|| señalizacion || mampara || sillones || separador || calor || frio || caluroso || manpara||puerta||cerradura||silla) & not (billete || espera || cola || ejecutivo || cajero||app||online banking||web)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_ccf271810d05b96de0ceac40",
+        "label": "Higiene e infraestructura"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_37b440163b45811986fabecd",
+        "label": "Confianza",
+        "query": "(confiar||confio||confianza||confiable||confie||confi||desconfio||desconfiable||confiabilidad||comfiable||comfianza||desconfiabilidad)",
+        "baseQuery": "(confiar||confio||confianza||confiable||confie||confi||desconfio||desconfiable||confiabilidad||comfiable||comfianza||desconfiabilidad)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_6823e2dc64d8a6c977d4a56c",
+        "label": "Seguridad",
+        "query": "(seguridad||seguro||inseguro||inseguridad) & not (\" personal de seguridad\",||\"el de seguridad\"||\"persona de seguridad\"||\"chico de seguridad\"||\"chico de seguridad\"|| \"chicos de seguridad\"|| \"guardia de seguridad\" ||\"caja de seguridad\"|| \"Caja de seguridad\"|| \"personal de seguridad\" ||\"Personal de Seguridad\"||auto||moto||casa)",
+        "baseQuery": "(seguridad||seguro||inseguro||inseguridad) & not (\" personal de seguridad\",||\"el de seguridad\"||\"persona de seguridad\"||\"chico de seguridad\"||\"chico de seguridad\"|| \"chicos de seguridad\"|| \"guardia de seguridad\" ||\"caja de seguridad\"|| \"Caja de seguridad\"|| \"personal de seguridad\" ||\"Personal de Seguridad\"||auto||moto||casa)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_b3d7c7f6b8e0020d62b5e2bd",
+        "label": "Imagen"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_335075c0805c796aaad3f8cf",
+        "label": "Tasas",
+        "query": "(costo||comisiones||cobro||cobraron||impuestos||tasas||comision||comicion||intereses||mora||taza||retenciones||caro||cara||caras||carisimo||comisión||carisimos||comisión||\"gastos bancarios\"||costos)&&((tasa || intereses || mora || tasas||taza||retenciones )  & not (\"cuotas sin interes\"))",
+        "baseQuery": "(tasa || intereses || mora || tasas||taza||retenciones )  & not (\"cuotas sin interes\")"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_4ecae391d4bd0741d5d5f8ea",
+        "label": "Comisiones",
+        "query": "(costo||comisiones||cobro||cobraron||impuestos||tasas||comision||comicion||intereses||mora||taza||retenciones||caro||cara||caras||carisimo||comisión||carisimos||comisión||\"gastos bancarios\"||costos)&&((costo ||costos|| precio || comision ||  costo || comisión||comisiones||mantenimiento||renovación||bonificar||bonificación||caro||carisimo) & not (tasas||impuestos||queja||reclamo))",
+        "baseQuery": "(costo ||costos|| precio || comision ||  costo || comisión||comisiones||mantenimiento||renovación||bonificar||bonificación||caro||carisimo) & not (tasas||impuestos||queja||reclamo)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_c6927459976b53b56f958304",
+        "label": "Dólares",
+        "query": "(costo||comisiones||cobro||cobraron||impuestos||tasas||comision||comicion||intereses||mora||taza||retenciones||caro||cara||caras||carisimo||comisión||carisimos||comisión||\"gastos bancarios\"||costos)&&((comision||costo||cobraron||cobro||mantenimiento) & (dólares||dolar||\"moneda extranjera\"||usd))",
+        "baseQuery": "(comision||costo||cobraron||cobro||mantenimiento) & (dólares||dolar||\"moneda extranjera\"||usd)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_2996fe787834b319b5e76271",
+        "label": "Impuestos",
+        "query": "(costo||comisiones||cobro||cobraron||impuestos||tasas||comision||comicion||intereses||mora||taza||retenciones||caro||cara||caras||carisimo||comisión||carisimos||comisión||\"gastos bancarios\"||costos)&&((impuesto||impuestos)  & not (reclamo||queja))",
+        "baseQuery": "(impuesto||impuestos)  & not (reclamo||queja)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_02944331da7bab4b16ba7c11",
+        "label": "Comision uso ATM no propio",
+        "query": "(costo||comisiones||cobro||cobraron||impuestos||tasas||comision||comicion||intereses||mora||taza||retenciones||caro||cara||caras||carisimo||comisión||carisimos||comisión||\"gastos bancarios\"||costos)&&((costo || comision || extraccion) & cajero & automático)",
+        "baseQuery": "(costo || comision || extraccion) & cajero & automático"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_602bbdb382f02a41bcd779fb",
+        "label": "Costos",
+        "query": "costo||comisiones||cobro||cobraron||impuestos||tasas||comision||comicion||intereses||mora||taza||retenciones||caro||cara||caras||carisimo||comisión||carisimos||comisión||\"gastos bancarios\"||costos",
+        "baseQuery": "costo||comisiones||cobro||cobraron||impuestos||tasas||comision||comicion||intereses||mora||taza||retenciones||caro||cara||caras||carisimo||comisión||carisimos||comisión||\"gastos bancarios\"||costos"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_12c28920670fc15eb4bc5026",
+        "label": "Eficiencia",
+        "query": "(eficiencia||eficaz||eficacia||eficiente||eficientemente||eficazmente||eficasmente) & not (ejecutivo ||cajero||tas||atm||caja||empleado ||personal||oficial||onlinebanking||app||clave||tarjeta||queja||reclamo||resolucion||autoservicio||atencion ||atendieron)",
+        "baseQuery": "(eficiencia||eficaz||eficacia||eficiente||eficientemente||eficazmente||eficasmente) & not (ejecutivo ||cajero||tas||atm||caja||empleado ||personal||oficial||onlinebanking||app||clave||tarjeta||queja||reclamo||resolucion||autoservicio||atencion ||atendieron)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_9f2df926513411938ecef81e",
+        "label": "Resolucion",
+        "query": "(resuelven||resolvieron||resolver||resuelve||resolví||solucionar||solucionaron||solucioné||soluciono||solucionan||arreglaron||resolutivo||resuelto||resolvió||resolucion||resolvi||Resolución||solucionó||solucion||solucionado||resuelto||resolvio||solucionó||solucionan||resolverme||resuelto||resolvieron||resolucion)",
+        "baseQuery": "(resuelven||resolvieron||resolver||resuelve||resolví||solucionar||solucionaron||solucioné||soluciono||solucionan||arreglaron||resolutivo||resuelto||resolvió||resolucion||resolvi||Resolución||solucionó||solucion||solucionado||resuelto||resolvio||solucionó||solucionan||resolverme||resuelto||resolvieron||resolucion)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_466d562bf148ec244677ca1f",
+        "label": "Resolucion y Eficiencia"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_7fe2a095dd82d8c13fc5f4f7",
+        "label": "Clave Online",
+        "query": "(clave  ||claves||pin||contraseña||alfabetica||alfanumerica) & (\"online  banking\" || online ||  \"homebanking\"||onlinebanking||HB||web||hbabkin||aplicacion||ap||\"home  banking\"||mobile || App || \"mobile banking\"||mobilebanking||aplicación||olb)  & not (token||toke||toquen||touquen)",
+        "baseQuery": "(clave  ||claves||pin||contraseña||alfabetica||alfanumerica) & (\"online  banking\" || online ||  \"homebanking\"||onlinebanking||HB||web||hbabkin||aplicacion||ap||\"home  banking\"||mobile || App || \"mobile banking\"||mobilebanking||aplicación||olb)  & not (token||toke||toquen||touquen)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_6659dfea5bee1132d0546b22",
+        "label": "Token",
+        "query": "(token||touken||toke||tolken||tokem||tokien)",
+        "baseQuery": "(token||touken||toke||tolken||tokem||tokien)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_b219dd95d639f46212ef858c",
+        "label": "Clave",
+        "query": "(clave  ||claves||pin||contraseña||alfabetica||alfanumerica)  & not (\"online banking\" ||  online ||  \"homebanking\"||onlinebanking||HB||web||hbabkin||aplicacion||ap||\"home  banking\"||mobile ||  App ||  \"mobile banking\"||mobilebanking||aplicación||olb||  token||toke||toquen||touquen)",
+        "baseQuery": "(clave  ||claves||pin||contraseña||alfabetica||alfanumerica)  & not (\"online banking\" ||  online ||  \"homebanking\"||onlinebanking||HB||web||hbabkin||aplicacion||ap||\"home  banking\"||mobile ||  App ||  \"mobile banking\"||mobilebanking||aplicación||olb||  token||toke||toquen||touquen)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_ae65e97fe684d0578692208b",
+        "label": "Claves"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_0cf197a83c77dce3be032691",
+        "label": "Higiene Área 24",
+        "query": "((\"cajero automático\" || terminal || autoservicio||atm||terminales|| autogestión ||tas||cajero||cajeros||atm||ATM||autoservicios))&&((limpia || limpieza || sucio || sucia || roto || rotos || rota || rotas || vieja ||suciedad|| higiene||manchado||mugre||limpio||olor||alcohol||mal estado||viejo||deteriorado||mugriento) & (cajero||atm||tas||cajero||\"cajero automatico\"||autoservicio||terminales) & not (billete||billetes||plata||dinero))",
+        "baseQuery": "(limpia || limpieza || sucio || sucia || roto || rotos || rota || rotas || vieja ||suciedad|| higiene||manchado||mugre||limpio||olor||alcohol||mal estado||viejo||deteriorado||mugriento) & (cajero||atm||tas||cajero||\"cajero automatico\"||autoservicio||terminales) & not (billete||billetes||plata||dinero)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_1aa03365c4ea4fbe4c1a1cb8",
+        "label": "Reconocimiento de billetes",
+        "query": "((\"cajero automático\" || terminal || autoservicio||atm||terminales|| autogestión ||tas||cajero||cajeros||atm||ATM||autoservicios))&&((\"cajero automático\" || terminal || autoservicio||atm||terminales|| autogestión ||tas||cajero||cajeros||maquinas) & (\"no lee\" || rechaza || rechazó || \"devuelve billetes\" || \"no toma\" || \"no reconoce\" || \"lector de billetes\" || devuelve|| reconocimiento || reconocer))",
+        "baseQuery": "(\"cajero automático\" || terminal || autoservicio||atm||terminales|| autogestión ||tas||cajero||cajeros||maquinas) & (\"no lee\" || rechaza || rechazó || \"devuelve billetes\" || \"no toma\" || \"no reconoce\" || \"lector de billetes\" || devuelve|| reconocimiento || reconocer)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_0dc27a28474ec1f6797cc8d2",
+        "label": "ATM/TAS Funcionamiento",
+        "query": "((\"cajero automático\" || terminal || autoservicio||atm||terminales|| autogestión ||tas||cajero||cajeros||atm||ATM||autoservicios))&&((\"cajero automático\" || terminal || autoservicio||atm||terminales|| autogestión ||tas||cajero||cajeros) & (\"no funciona\" || funcionaba||fallaban||\"no permiten\" ||no anda||no andan|| fallan ||falla|| \"no esta  disponible\" || \"fuera de servicio\"||funcionamiento||lento||lentitud||\"se colgo\"||\"se tilda\"||bien||mal||excelente||exelente||buena||conforme||no anda||funciona||funcionamientofunciona||funcionan||funcionamiento||anda||lento||rapido||agil||rapidez||falla||fallan||fuera de servicio||no esta disponible||se cuelga||se colgo||util||funcional||practico||se tilda||tildado||tildada||error) & not (\"débito automático\"||\"debito automatico\"||\"debito automático\"||\"débito automatico\"))",
+        "baseQuery": "(\"cajero automático\" || terminal || autoservicio||atm||terminales|| autogestión ||tas||cajero||cajeros) & (\"no funciona\" || funcionaba||fallaban||\"no permiten\" ||no anda||no andan|| fallan ||falla|| \"no esta  disponible\" || \"fuera de servicio\"||funcionamiento||lento||lentitud||\"se colgo\"||\"se tilda\"||bien||mal||excelente||exelente||buena||conforme||no anda||funciona||funcionamientofunciona||funcionan||funcionamiento||anda||lento||rapido||agil||rapidez||falla||fallan||fuera de servicio||no esta disponible||se cuelga||se colgo||util||funcional||practico||se tilda||tildado||tildada||error) & not (\"débito automático\"||\"debito automatico\"||\"debito automático\"||\"débito automatico\")"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_29959a9c3adb38bdcdedd587",
+        "label": "ATM/TAS Cash Out / Disponibilidad",
+        "query": "((\"cajero automático\" || terminal || autoservicio||atm||terminales|| autogestión ||tas||cajero||cajeros||atm||ATM||autoservicios))&&(( \"no hay plata\"~2||\"disponibilidad de dinero\"||\"no hay dinero\"~2||no tiene plata||no tiene dinero||no tienen billetes||\"no hay billetes\"||\"no hay efectivo\"||\"no tiene plata\"||\"no tiene dinero\"||\"no tiene billetes\" || \"falta billetes\"||\"faltan billetes\"||\"falta dinero\"||\"sin dinero\"||\"sin plata\"||\"sin efectivo\"||\"falta plata\"||falta efectivo||\"nunca dinero\"~2||\"nunca plata\"~2||\"nunca efectivo\"~2||vacío|| \"no dispone\"||\"no dinero\"~1||\"no plata\"~1||disponibilidad||\"no efectivo\"~1||\"ninguno dinero\"~1||\"ninguno efectivo\"~1||\"ninguno plata\"~1||(solo uno tiene||solo 1 entrega &&(dinero||plata||efectivo))) & not (\"débito automático\"||espera||fila||cola||personal||dólares||papel||caja))",
+        "baseQuery": "( \"no hay plata\"~2||\"disponibilidad de dinero\"||\"no hay dinero\"~2||no tiene plata||no tiene dinero||no tienen billetes||\"no hay billetes\"||\"no hay efectivo\"||\"no tiene plata\"||\"no tiene dinero\"||\"no tiene billetes\" || \"falta billetes\"||\"faltan billetes\"||\"falta dinero\"||\"sin dinero\"||\"sin plata\"||\"sin efectivo\"||\"falta plata\"||falta efectivo||\"nunca dinero\"~2||\"nunca plata\"~2||\"nunca efectivo\"~2||vacío|| \"no dispone\"||\"no dinero\"~1||\"no plata\"~1||disponibilidad||\"no efectivo\"~1||\"ninguno dinero\"~1||\"ninguno efectivo\"~1||\"ninguno plata\"~1||(solo uno tiene||solo 1 entrega &&(dinero||plata||efectivo))) & not (\"débito automático\"||espera||fila||cola||personal||dólares||papel||caja)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_a3a6b0caaf2ea77880971ef9",
+        "label": "Horario de uso",
+        "query": "((\"cajero automático\" || terminal || autoservicio||atm||terminales|| autogestión ||tas||cajero||cajeros||atm||ATM||autoservicios))&&((\"cajero automático\" || terminal || autoservicio||atm||terminales|| autogestión ||tas||cajero||cajeros) & ( hora || horario || cerrado|| cierre))",
+        "baseQuery": "(\"cajero automático\" || terminal || autoservicio||atm||terminales|| autogestión ||tas||cajero||cajeros) & ( hora || horario || cerrado|| cierre)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_0290744b23f0b51db670e777",
+        "label": "Retiro de moneda extranjera",
+        "query": "((\"cajero automático\" || terminal || autoservicio||atm||terminales|| autogestión ||tas||cajero||cajeros||atm||ATM||autoservicios))&&((\"cajero automático\" || terminal || autoservicio||atm||terminales|| autogestión||tas||cajero||cajeros||máquinas) & (dolares || dolar || \"moneda extranjera\"||usd))",
+        "baseQuery": "(\"cajero automático\" || terminal || autoservicio||atm||terminales|| autogestión||tas||cajero||cajeros||máquinas) & (dolares || dolar || \"moneda extranjera\"||usd)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_69906803d6355152100a1c5f",
+        "label": "Billetes baja denominación",
+        "query": "((\"cajero automático\" || terminal || autoservicio||atm||terminales|| autogestión ||tas||cajero||cajeros||atm||ATM||autoservicios))&&((\"billetes de 100\"||\"baja denominación\"||\"billete chicos\"||\"billetes de cien\"||\"billetesde sien\") & (\"cajero automático\" || terminal || autoservicio||atm||terminales|| autogestión ||tas||cajero||cajeros))",
+        "baseQuery": "(\"billetes de 100\"||\"baja denominación\"||\"billete chicos\"||\"billetes de cien\"||\"billetesde sien\") & (\"cajero automático\" || terminal || autoservicio||atm||terminales|| autogestión ||tas||cajero||cajeros)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_b8d7102fab07906f8e038ef3",
+        "label": "Bca Automática",
+        "query": "(\"cajero automático\" || terminal || autoservicio||atm||terminales|| autogestión ||tas||cajero||cajeros||atm||ATM||autoservicios)",
+        "baseQuery": "(\"cajero automático\" || terminal || autoservicio||atm||terminales|| autogestión ||tas||cajero||cajeros||atm||ATM||autoservicios)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_570ebf8ffdacc9fce975850c",
+        "label": "Sucursal Cierre",
+        "query": "(sucursal || sucursales||sucus) & ( cierre || cerraron || cerrando|| cerró || cerro||fusion||cerrado)",
+        "baseQuery": "(sucursal || sucursales||sucus) & ( cierre || cerraron || cerrando|| cerró || cerro||fusion||cerrado)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_e4c391f421388b6c74e3d65b",
+        "label": "Cierre de Sucursales"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_94634b291dfa9dce8df8c995",
+        "label": "Información",
+        "query": "(información || informacion || info||iformo||informaron||informad ) & not (home banking || online banking || app || mobile || chat)",
+        "baseQuery": "(información || informacion || info||iformo||informaron||informad ) & not (home banking || online banking || app || mobile || chat)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_17d90a9b2051105bd5094401",
+        "label": "Información gral"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_45302cdd09194d83eba826d8",
+        "label": "Demora/Agilidad Canales",
+        "query": "((veloz||velocidad||velostardanza||demora||agilidad||aigl||ajil||rapida||rapido||ágil||agilización||agilisadora||giliza||agilisa||agilidad||rapidez||rapides||rapido||rapidisimo||rapidicimo||rápio||rápida||lenta||lentisima||lentidud||lento||lentisimo||dinamico||rapides||tarda||tardanza)\n& not (espera||tiempo||cola||colas||filas||esperando||tardé||mucha gente||poca gente||muchas personas||muchisimas personas))&&((veloz||velocidad||velostardanza||demora||agilidad||aigl||ajil||ágil||agilización||agilisadora||giliza||agilisa||agilidad||rapidez||rapides||rapido||rapidisimo||rapidicimo||rápio||rápida||lenta||lentisima||lentidud||lento||lentisimo||dinamico||rapides) & (app||olb||banking||homebanking||web||página||portal||aplicación)\n& not (espera||tiempo||cola||colas||filas||esperando||tardé||mucha gente||poca gente||muchas personas||muchisimas personas||caja||cajero||autoservicio))",
+        "baseQuery": "(veloz||velocidad||velostardanza||demora||agilidad||aigl||ajil||ágil||agilización||agilisadora||giliza||agilisa||agilidad||rapidez||rapides||rapido||rapidisimo||rapidicimo||rápio||rápida||lenta||lentisima||lentidud||lento||lentisimo||dinamico||rapides) & (app||olb||banking||homebanking||web||página||portal||aplicación)\n& not (espera||tiempo||cola||colas||filas||esperando||tardé||mucha gente||poca gente||muchas personas||muchisimas personas||caja||cajero||autoservicio)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_7b7870a421da309a8cf7febc",
+        "label": "Demora/agilidad en atención",
+        "query": "((veloz||velocidad||velostardanza||demora||agilidad||aigl||ajil||rapida||rapido||ágil||agilización||agilisadora||giliza||agilisa||agilidad||rapidez||rapides||rapido||rapidisimo||rapidicimo||rápio||rápida||lenta||lentisima||lentidud||lento||lentisimo||dinamico||rapides||tarda||tardanza)\n& not (espera||tiempo||cola||colas||filas||esperando||tardé||mucha gente||poca gente||muchas personas||muchisimas personas))&&((veloz||velocidad||velostardanza||demora||agilidad||aigl||ajil||ágil||agilización||agilisadora||giliza||agilisa||agilidad||rapidez||rapides||rapido||rapidisimo||rapidicimo||rápio||rápida||lenta||lentisima||lentidud||lento||lentisimo||dinamico||rapides) & (atención||atendido||atienden||ejecutivo||representante)\n& not (espera||tiempo||cola||colas||filas||esperando||tardé||mucha gente||poca gente||muchas personas||muchisimas personas||maquina||olb||banking||app||atm||autoservicio))",
+        "baseQuery": "(veloz||velocidad||velostardanza||demora||agilidad||aigl||ajil||ágil||agilización||agilisadora||giliza||agilisa||agilidad||rapidez||rapides||rapido||rapidisimo||rapidicimo||rápio||rápida||lenta||lentisima||lentidud||lento||lentisimo||dinamico||rapides) & (atención||atendido||atienden||ejecutivo||representante)\n& not (espera||tiempo||cola||colas||filas||esperando||tardé||mucha gente||poca gente||muchas personas||muchisimas personas||maquina||olb||banking||app||atm||autoservicio)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_517bf8e17f2e7b840b5d50d5",
+        "label": "Demora/agilidad en respuestas",
+        "query": "((veloz||velocidad||velostardanza||demora||agilidad||aigl||ajil||rapida||rapido||ágil||agilización||agilisadora||giliza||agilisa||agilidad||rapidez||rapides||rapido||rapidisimo||rapidicimo||rápio||rápida||lenta||lentisima||lentidud||lento||lentisimo||dinamico||rapides||tarda||tardanza)\n& not (espera||tiempo||cola||colas||filas||esperando||tardé||mucha gente||poca gente||muchas personas||muchisimas personas))&&((respuesta||responden||contestan||contesto||respondieron||respondió||contestó||comunicaron||comunicó||contestación||contestasion) & (veloz||velocidad||velostardanza||demora||agilidad||aigl||ajil||ágil||agilización||agilisadora||giliza||agilisa||agilidad||rapidez||rapides||rapido||rapidisimo||rapidicimo||rápio||rápida||lenta||lentisima||lentidud||lento||lentisimo||dinamico||rapides||inmediata||inmediatas))",
+        "baseQuery": "(respuesta||responden||contestan||contesto||respondieron||respondió||contestó||comunicaron||comunicó||contestación||contestasion) & (veloz||velocidad||velostardanza||demora||agilidad||aigl||ajil||ágil||agilización||agilisadora||giliza||agilisa||agilidad||rapidez||rapides||rapido||rapidisimo||rapidicimo||rápio||rápida||lenta||lentisima||lentidud||lento||lentisimo||dinamico||rapides||inmediata||inmediatas)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_f78eef29b549d5986e55d7a9",
+        "label": "Agilidad",
+        "query": "(veloz||velocidad||velostardanza||demora||agilidad||aigl||ajil||rapida||rapido||ágil||agilización||agilisadora||giliza||agilisa||agilidad||rapidez||rapides||rapido||rapidisimo||rapidicimo||rápio||rápida||lenta||lentisima||lentidud||lento||lentisimo||dinamico||rapides||tarda||tardanza)\n& not (espera||tiempo||cola||colas||filas||esperando||tardé||mucha gente||poca gente||muchas personas||muchisimas personas)",
+        "baseQuery": "(veloz||velocidad||velostardanza||demora||agilidad||aigl||ajil||rapida||rapido||ágil||agilización||agilisadora||giliza||agilisa||agilidad||rapidez||rapides||rapido||rapidisimo||rapidicimo||rápio||rápida||lenta||lentisima||lentidud||lento||lentisimo||dinamico||rapides||tarda||tardanza)\n& not (espera||tiempo||cola||colas||filas||esperando||tardé||mucha gente||poca gente||muchas personas||muchisimas personas)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_7a169aa950e15dd0226a2dce",
+        "label": "Tiempo de espera sucursal",
+        "query": "((espera||tiempo||cola||colas||filas||esperando||tardé||mucha gente||poca gente||muchas personas||muchisimas personas||demoras))&&((espera||cola||colas||filas||esperando||demora||demorado||tardé||mucha gente||poca gente||muchas personas||muchisimas personas)  & sucursal not (caja||cajero||cajeros||cajas||automático||plataforma||terminal||autoservicio||atm||teléfono||contact||telefonia ))",
+        "baseQuery": "(espera||cola||colas||filas||esperando||demora||demorado||tardé||mucha gente||poca gente||muchas personas||muchisimas personas)  & sucursal not (caja||cajero||cajeros||cajas||automático||plataforma||terminal||autoservicio||atm||teléfono||contact||telefonia )"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_82b1c9d722a21974e48efbea",
+        "label": "Tiempo de espera Plataforma",
+        "query": "((espera||tiempo||cola||colas||filas||esperando||tardé||mucha gente||poca gente||muchas personas||muchisimas personas||demoras))&&((espera||cola||colas||filas||esperando||demora||demorado||tardé||mucha gente||poca gente||muchas personas||muchisimas personas)  & ( ejecutivo || \"oficial de cuenta\"|| comercial||ejecutiva||representante) & not (homebanking||app||mobile||\"home banking\"||\"mobilebanking\"||sucursal))",
+        "baseQuery": "(espera||cola||colas||filas||esperando||demora||demorado||tardé||mucha gente||poca gente||muchas personas||muchisimas personas)  & ( ejecutivo || \"oficial de cuenta\"|| comercial||ejecutiva||representante) & not (homebanking||app||mobile||\"home banking\"||\"mobilebanking\"||sucursal)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_506c4b4f3583503aedd97fd1",
+        "label": "Tiempo de espera para ser atendido",
+        "query": "((espera||tiempo||cola||colas||filas||esperando||tardé||mucha gente||poca gente||muchas personas||muchisimas personas||demoras))&&((espera||cola||colas||filas||esperando||demora||demorado||tardé||mucha gente||poca gente||muchas personas||muchisimas personas)  &  (atención ||atienden||atender|| servicio ||   prioridad ||  turnos || trámite || fila|| cola|| colas) not (Sucursal||caja||cajero||cajas||cajeros||automático||plataforma||terminal||autoservicio||teléfono||contact||  telefonica||telefónica ))",
+        "baseQuery": "(espera||cola||colas||filas||esperando||demora||demorado||tardé||mucha gente||poca gente||muchas personas||muchisimas personas)  &  (atención ||atienden||atender|| servicio ||   prioridad ||  turnos || trámite || fila|| cola|| colas) not (Sucursal||caja||cajero||cajas||cajeros||automático||plataforma||terminal||autoservicio||teléfono||contact||  telefonica||telefónica )"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_2ea163ca681e615a40a03490",
+        "label": "Tiempo de espera Contact Center",
+        "query": "((espera||tiempo||cola||colas||filas||esperando||tardé||mucha gente||poca gente||muchas personas||muchisimas personas||demoras))&&((espera||cola||colas||filas||esperando||demora||demorado||tardé||mucha gente||poca gente||muchas personas||muchisimas personas)  & (teléfono || contact || operador|| telefonica)  & not (Sucursal))",
+        "baseQuery": "(espera||cola||colas||filas||esperando||demora||demorado||tardé||mucha gente||poca gente||muchas personas||muchisimas personas)  & (teléfono || contact || operador|| telefonica)  & not (Sucursal)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_d490c7685b8af71f52f7a192",
+        "label": "Tiempo de espera Caja de Seguridad",
+        "query": "((espera||tiempo||cola||colas||filas||esperando||tardé||mucha gente||poca gente||muchas personas||muchisimas personas||demoras))&&((espera||cola||colas||filas||esperando||demora||demorado||tardé||mucha gente||poca gente||muchas personas||muchisimas personas)  & (\"caja de seguridad\" || \"caja seguridad\"))",
+        "baseQuery": "(espera||cola||colas||filas||esperando||demora||demorado||tardé||mucha gente||poca gente||muchas personas||muchisimas personas)  & (\"caja de seguridad\" || \"caja seguridad\")"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_de88e0225808547bf7163e82",
+        "label": "Tiempo de espera Caja",
+        "query": "((espera||tiempo||cola||colas||filas||esperando||tardé||mucha gente||poca gente||muchas personas||muchisimas personas||demoras))&&((espera||cola||colas||filas||esperando||demora||demorado||tardé||mucha gente||poca gente||muchas personas||muchisimas personas)  & (caja || cajero||cajas||cajeros) & not (automatico||automático||autoservicio||atm||maquina||máquina||maquinas||máquinas))",
+        "baseQuery": "(espera||cola||colas||filas||esperando||demora||demorado||tardé||mucha gente||poca gente||muchas personas||muchisimas personas)  & (caja || cajero||cajas||cajeros) & not (automatico||automático||autoservicio||atm||maquina||máquina||maquinas||máquinas)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_0774f477925bef0b714526ae",
+        "label": "Tiempo de espera Banca Automatica",
+        "query": "((espera||tiempo||cola||colas||filas||esperando||tardé||mucha gente||poca gente||muchas personas||muchisimas personas||demoras))&&((espera||cola||colas||filas||esperando||demora||demorado||tardé||mucha gente||poca gente||muchas personas||muchisimas personas) & (automatica || automático || terminal || máquina||maquina||máquinas||maquinas||autoservicio||atm||terminales||autogestión||tas||terminales||atm||cajero automatico))",
+        "baseQuery": "(espera||cola||colas||filas||esperando||demora||demorado||tardé||mucha gente||poca gente||muchas personas||muchisimas personas) & (automatica || automático || terminal || máquina||maquina||máquinas||maquinas||autoservicio||atm||terminales||autogestión||tas||terminales||atm||cajero automatico)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_e07410bb6a6510f7d88e49f7",
+        "label": "Tiempos de espera",
+        "query": "(espera||tiempo||cola||colas||filas||esperando||tardé||mucha gente||poca gente||muchas personas||muchisimas personas||demoras)",
+        "baseQuery": "(espera||tiempo||cola||colas||filas||esperando||tardé||mucha gente||poca gente||muchas personas||muchisimas personas||demoras)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_e42f7eb67d837a1c74e9cfca",
+        "label": "Tiempo de espera"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_1157c215503f7d54755ee65d",
+        "label": "Opciones / Menú CD",
+        "query": "(olb||app||onlinebanking||banking||hbanking||bankin||web||página||aplicacion||app.||mobile) &(funciones||funsiones||opción||opcion||opciones||opsion||menu) & not (funciona||funcionamiento)",
+        "baseQuery": "(olb||app||onlinebanking||banking||hbanking||bankin||web||página||aplicacion||app.||mobile) &(funciones||funsiones||opción||opcion||opciones||opsion||menu) & not (funciona||funcionamiento)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_176c41f60610d973c0397e8a",
+        "label": "Prestamos",
+        "query": "(prestamos||préstamos) & (\"online banking\" || online || \"homebanking\"||onlinebanking||HB||web||\"home banking\"||mobile ||  App || \"mobile banking\"||mobilebanking||aplicación||olb||internet)",
+        "baseQuery": "(prestamos||préstamos) & (\"online banking\" || online || \"homebanking\"||onlinebanking||HB||web||\"home banking\"||mobile ||  App || \"mobile banking\"||mobilebanking||aplicación||olb||internet)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_846515b61e59e3f512b12acb",
+        "label": "Chat",
+        "query": "chat || santi||bot|| \"asistente virtual\"||atencion virtual",
+        "baseQuery": "chat || santi||bot|| \"asistente virtual\"||atencion virtual"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_8164f599f5b554220fd99bd1",
+        "label": "Conformidad Canales",
+        "query": "( todobien||recomendé||recomiendo||son lo mas||ok||okk||conforme|| excelencia||buen banco||\"estoy contento\"  ||contenta|| \"todo bien\" ||  satisfecho||satisfactorio||bien||mal||malo||malisimo||lo  mejor||barbaro||satisfactorio||insatisfecho||excelente||exelente||ecelente||bueno||excelente||”de  diez”||”de 10”||\"sin  problemas\"~2||\"sin inconvenientes\"~2||Buenisima||\"jamás  problemas\"~2||sin problema||\"nunca inconvenientes\"~2||no tuve  inconveniente||\"ningún inconveniente\"~2||\"no  problemas\"~2||\"nunca  problemas\"~2||genial||geniales||grandes||bárbaro||buena||impecable||excelente||desastre||espectacular||genial||perfecto  ||exelente||exelentes||recomiendo||conforme||correcto||\"nunca tuve  problemas\"||\"diez puntos\"||\"10  puntos\"||recomendable||recomendar||recomiendo||aceptable||conforme||conformidad||me  gusta||me encanta||\"no tengo quejas\"||\"gran  banco\"||\"nunca tuve problema\"||\"nunca  problemas\"~2||normal||extraordinario||desastre||pesima||pesimo||\"el  mejor\"||\"el peor\"||deplorable||\"no tengo  quejas\"||\"gran banco\"||\"nunca tuve problema\"  ||satisfacción||cumple||cumplidor||recomiendo||recomendaria ||fantastico||  excelemte|| excelencia || no lo cambio por || encantada || ningún problema ||  imprescindible || horrible || nunca tuve un problema||\"jamás  inconvenientes\"~2 ||\"nunca problema\"~3||\"jamas problema\"~2 ||el peor||el  mejor||ecxelente||buenos||sin problemas||ningun problema) & (app||olb||online banking||home banking||banking||bankin||bot||asistente virtual)",
+        "baseQuery": "( todobien||recomendé||recomiendo||son lo mas||ok||okk||conforme|| excelencia||buen banco||\"estoy contento\"  ||contenta|| \"todo bien\" ||  satisfecho||satisfactorio||bien||mal||malo||malisimo||lo  mejor||barbaro||satisfactorio||insatisfecho||excelente||exelente||ecelente||bueno||excelente||”de  diez”||”de 10”||\"sin  problemas\"~2||\"sin inconvenientes\"~2||Buenisima||\"jamás  problemas\"~2||sin problema||\"nunca inconvenientes\"~2||no tuve  inconveniente||\"ningún inconveniente\"~2||\"no  problemas\"~2||\"nunca  problemas\"~2||genial||geniales||grandes||bárbaro||buena||impecable||excelente||desastre||espectacular||genial||perfecto  ||exelente||exelentes||recomiendo||conforme||correcto||\"nunca tuve  problemas\"||\"diez puntos\"||\"10  puntos\"||recomendable||recomendar||recomiendo||aceptable||conforme||conformidad||me  gusta||me encanta||\"no tengo quejas\"||\"gran  banco\"||\"nunca tuve problema\"||\"nunca  problemas\"~2||normal||extraordinario||desastre||pesima||pesimo||\"el  mejor\"||\"el peor\"||deplorable||\"no tengo  quejas\"||\"gran banco\"||\"nunca tuve problema\"  ||satisfacción||cumple||cumplidor||recomiendo||recomendaria ||fantastico||  excelemte|| excelencia || no lo cambio por || encantada || ningún problema ||  imprescindible || horrible || nunca tuve un problema||\"jamás  inconvenientes\"~2 ||\"nunca problema\"~3||\"jamas problema\"~2 ||el peor||el  mejor||ecxelente||buenos||sin problemas||ningun problema) & (app||olb||online banking||home banking||banking||bankin||bot||asistente virtual)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_dae6aa98bf92a1e6c423910c",
+        "label": "Pagos Online",
+        "query": "(pago||pagos||pague||pagar||pagare||pagaria||pagando) &(servicios||impuestos||boletas||abl||patente) & (\"online banking\" || online || \"homebanking\"||onlinebanking||HB||web||\"home banking\"||mobile ||  App || \"mobile banking\"||aplicación||olb)",
+        "baseQuery": "(pago||pagos||pague||pagar||pagare||pagaria||pagando) &(servicios||impuestos||boletas||abl||patente) & (\"online banking\" || online || \"homebanking\"||onlinebanking||HB||web||\"home banking\"||mobile ||  App || \"mobile banking\"||aplicación||olb)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_e542207ddf794d7cba7aa305",
+        "label": "Transferencias",
+        "query": "transferencias||transferi||transferí||transferir||transferencia||tranferencia||tranferi||tranfirieron||transfirieron||destinatario||transferencias||transferir ",
+        "baseQuery": "transferencias||transferi||transferí||transferir||transferencia||tranferencia||tranferi||tranfirieron||transfirieron||destinatario||transferencias||transferir "
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_151e050e1040335b9beaa873",
+        "label": "Certificado Digital",
+        "query": "allison||alison||certificado digital||certificado",
+        "baseQuery": "allison||alison||certificado digital||certificado"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_0daf250cd9365446a3422f8a",
+        "label": "App funcionamiento",
+        "query": "(app||aplicacion||mobile||celular||ap)&&((mobile ||  App || \"mobile banking\"||mobilebanking||aplicación || app) &  (funcionamiento||\"no funciona\"||\"no anda\"||anda||funciona||funcionaba||anda||anduvo||\"abre\"))",
+        "baseQuery": "(mobile ||  App || \"mobile banking\"||mobilebanking||aplicación || app) &  (funcionamiento||\"no funciona\"||\"no anda\"||anda||funciona||funcionaba||anda||anduvo||\"abre\")"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_f038a1932e3634df95d694c9",
+        "label": "App usabilidad",
+        "query": "(app||aplicacion||mobile||celular||ap)&&((mobile ||  app || \"mobile banking\"||aplicación )  &  (facilidad||uso||usabilidad||fácil||sencillo||difícil||\"no se entiende\"|| funcionalidades ||complicada||dificil||\"se puede hacer\"|| dinámico||práctico||sencilla||clara||claridad||práctica||practico||comoda || comodo || cómoda||comodidad || cómodo || amigable||uso||usabilidad||\"se puede hacer\"|| practicidad||práctica||dinámico||sirve||funcional||funsional||efectiva||práctico||clara||claridad||practica||prolijo||practicada||accesible||accesibilidad||intuitiva||dinamico||ordenado||inutil||inutillidad||utilidad||impractica||eficiencia||eficas||eficacia||super completa||efectivo||efectiva||útil||util||práctica||dinámica||eficiente||eficaz||practica||practicidad||eficaz||eficacia||eficiente||sencillo||facil||dificil||complicado||sencillez||faciles||facilidad||simple||simpleza||fácil||entendible||\"no se entiende\"||facilita||fasil||facilisimo||facilicimo||fasilidad||facilita||simplificar||intuitivo||rebuscadi||fluido||cencillo||confuso||clara||dinamica))",
+        "baseQuery": "(mobile ||  app || \"mobile banking\"||aplicación )  &  (facilidad||uso||usabilidad||fácil||sencillo||difícil||\"no se entiende\"|| funcionalidades ||complicada||dificil||\"se puede hacer\"|| dinámico||práctico||sencilla||clara||claridad||práctica||practico||comoda || comodo || cómoda||comodidad || cómodo || amigable||uso||usabilidad||\"se puede hacer\"|| practicidad||práctica||dinámico||sirve||funcional||funsional||efectiva||práctico||clara||claridad||practica||prolijo||practicada||accesible||accesibilidad||intuitiva||dinamico||ordenado||inutil||inutillidad||utilidad||impractica||eficiencia||eficas||eficacia||super completa||efectivo||efectiva||útil||util||práctica||dinámica||eficiente||eficaz||practica||practicidad||eficaz||eficacia||eficiente||sencillo||facil||dificil||complicado||sencillez||faciles||facilidad||simple||simpleza||fácil||entendible||\"no se entiende\"||facilita||fasil||facilisimo||facilicimo||fasilidad||facilita||simplificar||intuitivo||rebuscadi||fluido||cencillo||confuso||clara||dinamica)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_7b3029a04b9a8808c03fceed",
+        "label": "App velocidad",
+        "query": "(app||aplicacion||mobile||celular||ap)&&((mobile||\"mobile banking\"||mobilebanking||app||aplicación|| App)& (rápida||lenta||velocidad||veloz||ágil||demora||rápido||lento|| rapida || rapido || lenta|| rápida||\"es rápida\"||\"es rapida\"||tarda||tardo||lentitud||rapidez||rapides||celeridad||rapidisimo||rapidisima||agilidad||agil||ágil||ajil|| agiliza || agiles || ágiles|| agilisa|| agilización||agilizacion || agilizadora || agilizaron|| lentísimo || lentisimo))",
+        "baseQuery": "(mobile||\"mobile banking\"||mobilebanking||app||aplicación|| App)& (rápida||lenta||velocidad||veloz||ágil||demora||rápido||lento|| rapida || rapido || lenta|| rápida||\"es rápida\"||\"es rapida\"||tarda||tardo||lentitud||rapidez||rapides||celeridad||rapidisimo||rapidisima||agilidad||agil||ágil||ajil|| agiliza || agiles || ágiles|| agilisa|| agilización||agilizacion || agilizadora || agilizaron|| lentísimo || lentisimo)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_45b3125511a33a53b428b6ce",
+        "label": "App",
+        "query": "app||aplicacion||mobile||celular||ap",
+        "baseQuery": "app||aplicacion||mobile||celular||ap"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_125f23ef54f8b58c004926f9",
+        "label": "OLB velocidad",
+        "query": "(banking||bankin||home b||página||web||\"online banking\"|| \"homebanking\"|| homebanking||onlinebanking||HB||web||\"home banking\"||olb)&&((\"online banking\" ||  online || \"homebanking\"|| homebanking|| onlinebanking||HB||web||\"home banking\"||olb) & (rápida||lenta||velocidad||veloz||ágil||demora||rápido||lento|| rapida || rapido || lenta|| rápida||\"es rápida\"||\"es rapida\"||tarda||tardo||lentitud||rapidez||rapides||celeridad||rapidisimo||rapidisima||agilidad||agil||ágil||ajil|| agiliza || agiles || ágiles|| agilisa|| agilización||agilizacion || agilizadora || agilizaron|| lentísimo || lentisimo))",
+        "baseQuery": "(\"online banking\" ||  online || \"homebanking\"|| homebanking|| onlinebanking||HB||web||\"home banking\"||olb) & (rápida||lenta||velocidad||veloz||ágil||demora||rápido||lento|| rapida || rapido || lenta|| rápida||\"es rápida\"||\"es rapida\"||tarda||tardo||lentitud||rapidez||rapides||celeridad||rapidisimo||rapidisima||agilidad||agil||ágil||ajil|| agiliza || agiles || ágiles|| agilisa|| agilización||agilizacion || agilizadora || agilizaron|| lentísimo || lentisimo)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_64a5290c3a6d75854ebbfef6",
+        "label": "OLB usabilidad",
+        "query": "(banking||bankin||home b||página||web||\"online banking\"|| \"homebanking\"|| homebanking||onlinebanking||HB||web||\"home banking\"||olb)&&((\"online banking\" ||  online || \"homebanking\"|| \"homebanking\"||onlinebanking||HB||web||\"home banking\"||olb)  &  (facilidad||uso||usabilidad||fácil||sencillo||difícil||\"no se entiende\"|| funcionalidades ||complicada||dificil||\"se puede hacer\"|| dinámico||práctico||sencilla||clara||claridad||práctica||practico||comoda || comodo || cómoda||comodidad || cómodo || amigable||uso||usabilidad||\"se puede hacer\"|| practicidad||práctica||dinámico||sirve||funcional||funsional||efectiva||práctico||clara||claridad||practica||prolijo||practicada||accesible||accesibilidad||intuitiva||dinamico||ordenado||inutil||inutillidad||utilidad||impractica||eficiencia||eficas||eficacia||super completa||efectivo||efectiva||útil||util||práctica||dinámica||eficiente||eficaz||practica||practicidad||eficaz||eficacia||eficiente||sencillo||facil||dificil||complicado||sencillez||faciles||facilidad||simple||simpleza||fácil||entendible||\"no se entiende\"||facilita||fasil||facilisimo||facilicimo||fasilidad||facilita||simplificar||intuitivo||rebuscadi||fluido||cencillo||confuso||clara||dinamica))",
+        "baseQuery": "(\"online banking\" ||  online || \"homebanking\"|| \"homebanking\"||onlinebanking||HB||web||\"home banking\"||olb)  &  (facilidad||uso||usabilidad||fácil||sencillo||difícil||\"no se entiende\"|| funcionalidades ||complicada||dificil||\"se puede hacer\"|| dinámico||práctico||sencilla||clara||claridad||práctica||practico||comoda || comodo || cómoda||comodidad || cómodo || amigable||uso||usabilidad||\"se puede hacer\"|| practicidad||práctica||dinámico||sirve||funcional||funsional||efectiva||práctico||clara||claridad||practica||prolijo||practicada||accesible||accesibilidad||intuitiva||dinamico||ordenado||inutil||inutillidad||utilidad||impractica||eficiencia||eficas||eficacia||super completa||efectivo||efectiva||útil||util||práctica||dinámica||eficiente||eficaz||practica||practicidad||eficaz||eficacia||eficiente||sencillo||facil||dificil||complicado||sencillez||faciles||facilidad||simple||simpleza||fácil||entendible||\"no se entiende\"||facilita||fasil||facilisimo||facilicimo||fasilidad||facilita||simplificar||intuitivo||rebuscadi||fluido||cencillo||confuso||clara||dinamica)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_5d8ade46332d96e42e5475bc",
+        "label": "OLB funcionamiento",
+        "query": "(banking||bankin||home b||página||web||\"online banking\"|| \"homebanking\"|| homebanking||onlinebanking||HB||web||\"home banking\"||olb)&&((\"online banking\" ||  online || \"homebanking\"|| homebanking||onlinebanking||HB||web||\"home banking\"||olb) &  (funcionamiento||\"no funciona\"||\"no anda\"||anda||funciona||funcionaba||anda||anduvo||\"abre\"))",
+        "baseQuery": "(\"online banking\" ||  online || \"homebanking\"|| homebanking||onlinebanking||HB||web||\"home banking\"||olb) &  (funcionamiento||\"no funciona\"||\"no anda\"||anda||funciona||funcionaba||anda||anduvo||\"abre\")"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_34d7d3dcf3f7b0b328a7d1a9",
+        "label": "OLB",
+        "query": "banking||bankin||home b||página||web||\"online banking\"|| \"homebanking\"|| homebanking||onlinebanking||HB||web||\"home banking\"||olb",
+        "baseQuery": "banking||bankin||home b||página||web||\"online banking\"|| \"homebanking\"|| homebanking||onlinebanking||HB||web||\"home banking\"||olb"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_7ee1b2a1356c9514eaaf64e2",
+        "label": "Canales Digitales"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_c68a98be88e90f74bdf68d59",
+        "label": "Conformidad gral",
+        "query": "( ok||conforme|| estupendo||buen banco||\"estoy contento\" ||contenta|| \"todo bien\" || satisfecho||satisfactorio|| bien||mal||malo||bueno||excelente||”de  diez”||”de 10”||\"sin problemas\"~2||\"sin inconvenientes\"~2||Buenisima||\"jamás problemas\"~2||sin problema||\"nunca inconvenientes\"~2||no tuve inconveniente||\"ningún inconveniente\"~2||\"no problemas\"~2||\"nunca problemas\"~2||bárbaro||excelente||desastre||espectacular||genial||perfecto ||exelente||recomiendo||conforme||correcto||\"nunca tuve problemas\"||\"diez puntos\"||\"10 puntos\"||recomendable||aceptable||conforme||conformidad||me gusta||me encanta||\"no tengo quejas\"||\"gran banco\"||\"nunca tuve problema\"||\"nunca problemas\"~2||normal||extraordinario||desastre||pesima||pesimo||\"el mejor\"||\"el peor\"||deplorable||\"no tengo quejas\"||\"gran banco\"||\"nunca tuve problema\" ||satisfacción||cumple||cumplidor||recomiendo||recomendaria ||fantastico) & not (ejecutivo||cajero||tas||atm||caja||empleado||personal||operadores|| online||oficial||online banking||app||clave||tarjeta||prestamo||transferencias||queja||reclamo ||atencion||atendido|| queja || reclamo||autoservicio||terminal||cajero||billetes)",
+        "baseQuery": "( ok||conforme|| estupendo||buen banco||\"estoy contento\" ||contenta|| \"todo bien\" || satisfecho||satisfactorio|| bien||mal||malo||bueno||excelente||”de  diez”||”de 10”||\"sin problemas\"~2||\"sin inconvenientes\"~2||Buenisima||\"jamás problemas\"~2||sin problema||\"nunca inconvenientes\"~2||no tuve inconveniente||\"ningún inconveniente\"~2||\"no problemas\"~2||\"nunca problemas\"~2||bárbaro||excelente||desastre||espectacular||genial||perfecto ||exelente||recomiendo||conforme||correcto||\"nunca tuve problemas\"||\"diez puntos\"||\"10 puntos\"||recomendable||aceptable||conforme||conformidad||me gusta||me encanta||\"no tengo quejas\"||\"gran banco\"||\"nunca tuve problema\"||\"nunca problemas\"~2||normal||extraordinario||desastre||pesima||pesimo||\"el mejor\"||\"el peor\"||deplorable||\"no tengo quejas\"||\"gran banco\"||\"nunca tuve problema\" ||satisfacción||cumple||cumplidor||recomiendo||recomendaria ||fantastico) & not (ejecutivo||cajero||tas||atm||caja||empleado||personal||operadores|| online||oficial||online banking||app||clave||tarjeta||prestamo||transferencias||queja||reclamo ||atencion||atendido|| queja || reclamo||autoservicio||terminal||cajero||billetes)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_ab056dcbd75eb6d29b00c767",
+        "label": "Conformidad"
+      }
+    },
+    {
+      "operation": "move_topics",
+      "parentLabel": "Canales Digitales",
+      "childLabels": [
+        "Opciones / Menú CD",
+        "Prestamos",
+        "Chat",
+        "Conformidad Canales",
+        "Pagos Online",
+        "Transferencias",
+        "Certificado Digital",
+        "App",
+        "OLB"
+      ]
+    },
+    {
+      "operation": "move_topics",
+      "parentLabel": "Atención",
+      "childLabels": [
+        "Acompañamiento de clientes",
+        "Atención gral",
+        "Contacto / Respuesta"
+      ]
+    },
+    {
+      "operation": "move_topics",
+      "parentLabel": "Imagen",
+      "childLabels": [
+        "Confianza",
+        "Seguridad"
+      ]
+    },
+    {
+      "operation": "move_topics",
+      "parentLabel": "Cierre de Sucursales",
+      "childLabels": [
+        "Sucursal Cierre"
+      ]
+    },
+    {
+      "operation": "move_topics",
+      "parentLabel": "Atención gral",
+      "childLabels": [
+        "Atención del ejecutivo",
+        "Atención en Cajas",
+        "Atención online",
+        "Atención personalizada",
+        "Atención sucursales",
+        "Atención telefónica"
+      ]
+    },
+    {
+      "operation": "move_topics",
+      "parentLabel": "Contacto / Respuesta",
+      "childLabels": [
+        "Imposibilidad de contacto",
+        "Respuesta"
+      ]
+    },
+    {
+      "operation": "move_topics",
+      "parentLabel": "Tiempo de espera",
+      "childLabels": [
+        "Agilidad",
+        "Tiempos de espera"
+      ]
+    },
+    {
+      "operation": "move_topics",
+      "parentLabel": "Beneficios",
+      "childLabels": [
+        "women",
+        "Superclub",
+        "Promociones Supermercado/Combustible",
+        "Sorpresa",
+        "Falta promociones",
+        "Promociones /beneficios",
+        "Marcas",
+        "Competencia",
+        "Faltan cuotas"
+      ]
+    },
+    {
+      "operation": "move_topics",
+      "parentLabel": "Tarjetas",
+      "childLabels": [
+        "Uso en exterior",
+        "Refinanciacion",
+        "Habilitacion",
+        "Pago de tarjetas",
+        "Resolución de tarjetas",
+        "Delivery",
+        "Consumo Cuestionado",
+        "Bloqueos",
+        "Baja de tarjetas",
+        "Conformidad Tarjetas",
+        "Funcionamiento de tarjetas",
+        "Resumen"
+      ]
+    },
+    {
+      "operation": "move_topics",
+      "parentLabel": "Funcionamiento",
+      "childLabels": [
+        "Funcionamiento general",
+        "Sencillez General",
+        "Practicidad general"
+      ]
+    },
+    {
+      "operation": "move_topics",
+      "parentLabel": "Claves",
+      "childLabels": [
+        "Clave Online",
+        "Token",
+        "Clave"
+      ]
+    },
+    {
+      "operation": "move_topics",
+      "parentLabel": "Tiempos de espera",
+      "childLabels": [
+        "Tiempo de espera sucursal",
+        "Tiempo de espera Plataforma",
+        "Tiempo de espera para ser atendido",
+        "Tiempo de espera Contact Center",
+        "Tiempo de espera Caja de Seguridad",
+        "Tiempo de espera Caja",
+        "Tiempo de espera Banca Automatica"
+      ]
+    },
+    {
+      "operation": "move_topics",
+      "parentLabel": "Costos",
+      "childLabels": [
+        "Tasas",
+        "Comisiones",
+        "Dólares",
+        "Impuestos",
+        "Comision uso ATM no propio"
+      ]
+    },
+    {
+      "operation": "move_topics",
+      "parentLabel": "Bca Automática",
+      "childLabels": [
+        "Higiene Área 24",
+        "Reconocimiento de billetes",
+        "ATM/TAS Funcionamiento",
+        "ATM/TAS Cash Out / Disponibilidad",
+        "Horario de uso",
+        "Retiro de moneda extranjera",
+        "Billetes baja denominación"
+      ]
+    },
+    {
+      "operation": "move_topics",
+      "parentLabel": "Reclamos /Quejas",
+      "childLabels": [
+        "Problemas TAS",
+        "Resolución de reclamos",
+        "Estafas",
+        "Problema comisiones",
+        "Desconocimiento de contratación",
+        "Problema Impuestos",
+        "Problemas Prestamos",
+        "Problemas resumen",
+        "Problemas Pago Tarjeta",
+        "Problemas Superclub",
+        "Problemas Promociones"
+      ]
+    },
+    {
+      "operation": "move_topics",
+      "parentLabel": "Comercio Exterior",
+      "childLabels": [
+        "Comex"
+      ]
+    },
+    {
+      "operation": "move_topics",
+      "parentLabel": "Conformidad",
+      "childLabels": [
+        "Conformidad gral"
+      ]
+    },
+    {
+      "operation": "move_topics",
+      "parentLabel": "Baja Productos",
+      "childLabels": [
+        "Baja de Productos"
+      ]
+    },
+    {
+      "operation": "move_topics",
+      "parentLabel": "Agilidad",
+      "childLabels": [
+        "Demora/Agilidad Canales",
+        "Demora/agilidad en atención",
+        "Demora/agilidad en respuestas"
+      ]
+    },
+    {
+      "operation": "move_topics",
+      "parentLabel": "Préstamo",
+      "childLabels": [
+        "Préstamos"
+      ]
+    },
+    {
+      "operation": "move_topics",
+      "parentLabel": "Resolucion y Eficiencia",
+      "childLabels": [
+        "Eficiencia",
+        "Resolucion"
+      ]
+    },
+    {
+      "operation": "move_topics",
+      "parentLabel": "App",
+      "childLabels": [
+        "App funcionamiento",
+        "App usabilidad",
+        "App velocidad"
+      ]
+    },
+    {
+      "operation": "move_topics",
+      "parentLabel": "Riesgo de crédito",
+      "childLabels": [
+        "Límites",
+        "Oferta de crédito"
+      ]
+    },
+    {
+      "operation": "move_topics",
+      "parentLabel": "Higiene e infraestructura",
+      "childLabels": [
+        "Higiene",
+        "Infraestructura"
+      ]
+    },
+    {
+      "operation": "move_topics",
+      "parentLabel": "Información gral",
+      "childLabels": [
+        "Información"
+      ]
+    },
+    {
+      "operation": "move_topics",
+      "parentLabel": "OLB",
+      "childLabels": [
+        "OLB velocidad",
+        "OLB usabilidad",
+        "OLB funcionamiento"
+      ]
+    }
+  ],
+  "rootNodes": [
+    "Atención",
+    "Beneficios",
+    "Funcionamiento",
+    "Riesgo de crédito",
+    "Baja Productos",
+    "Reclamos /Quejas",
+    "Tarjetas",
+    "Préstamo",
+    "Comercio Exterior",
+    "Higiene e infraestructura",
+    "Imagen",
+    "Costos",
+    "Resolucion y Eficiencia",
+    "Claves",
+    "Bca Automática",
+    "Cierre de Sucursales",
+    "Información gral",
+    "Tiempo de espera",
+    "Canales Digitales",
+    "Conformidad"
+  ]
+}

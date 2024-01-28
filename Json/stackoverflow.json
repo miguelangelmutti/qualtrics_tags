@@ -1,0 +1,85 @@
+{   "version": "2.0",   "operations": [
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_4688cc22b4d1b8fc21f1a10b9",
+        "label": "H1 Parent Topic A",
+        "query": "apples",
+        "baseQuery": "apples"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_4da41c224bc519b6d54af4f2",
+        "label": "H1 Parent Topic B",
+        "query": "oranges",
+        "baseQuery": "oranges"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_2c1099b6e6b5a040e210d108797",
+        "label": "H2 Topic A1",
+        "query": "(apples)&&(blue)",
+        "baseQuery": "blue"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_47081b997573137fdfbec914",
+        "label": "H2 Topic A2",
+        "query": "(apples)&&(red)",
+        "baseQuery": "red"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_388937922238a572be5beac3",
+        "label": "H2 Topic B1",
+        "query": "(oranges)&&(purple)",
+        "baseQuery": "purple"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_b92f587891097f85465ed92101",
+        "label": "H3 Topic A1"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_d3f27873b48544f7b3434f97",
+        "label": "H3 Topic A2"
+      }
+    },
+    {
+      "operation": "move_topics",
+      "parentLabel": "H1 Parent Topic A",
+      "childLabels": [
+        "H2 Topic A1",
+        "H2 Topic A2"
+      ]
+    },
+    {
+      "operation": "move_topics",
+      "parentLabel": "H1 Parent Topic B",
+      "childLabels": [
+        "H2 Topic B1"
+      ]
+    },
+    {
+      "operation": "move_topics",
+      "parentLabel": "H2 Topic A1",
+      "childLabels": [
+        "H3 Topic A1",
+        "H3 Topic A2"
+      ]
+    }   ],   "rootNodes": [
+    "H1 Parent Topic A",
+    "H1 Parent Topic B"   ] }
