@@ -79,9 +79,10 @@ def process_operations(node, operations):
 def tags_to_json(archivo_a_transformar):
     with open(archivo_a_transformar, encoding="UTF-8") as file:
         data = json.load(file)
-
+    nodos = listar_nodos(archivo_a_transformar)
     lista = []
-    for node in data['rootNodes']:
+    #for node in data['rootNodes']:
+    for node in nodos:
         ddict = {"name": node, "children": process_operations(node, data["operations"])}
         lista.append(ddict)        
     nombre_archivo = get_nombre_archivo(archivo_a_transformar)  
@@ -89,6 +90,20 @@ def tags_to_json(archivo_a_transformar):
     with open(archivo_json_jerarquizado, 'w', encoding='utf-8') as f:
         json.dump(lista, f, ensure_ascii=False, indent=4)
     return nombre_archivo
+
+
+def listar_nodos(archivo_a_transformar):
+    with open(archivo_a_transformar, encoding="UTF-8") as file:
+        data = json.load(file)
+    lista = []
+    if 'rootNodes' in data:
+        nodos = [node for node in data['rootNodes']]
+    else:
+        nodos = [operation['parentLabel'] for operation in data['operations'] if operation['operation']=='move_topics' ]            
+    return nodos            
+                  
+            
+    
 
 
 def cross_join(left, right):
@@ -133,6 +148,7 @@ def df_to_csv(df,filename):
         
 
 if __name__ == '__main__':
+    
     # TODO listar archivos en la carpeta
     carpeta_path_json = "./Json"
     carpeta_path_csv = "./csv"
@@ -155,6 +171,15 @@ if __name__ == '__main__':
         print("no se encontro el archivo")
     except Exception as e:
         print(f"error inesperado " + str(e))
+    
 
-
+    """
+    nodos = listar_nodos('./Json/General Completo.json')
+    print(nodos)
+    print("--------------------------------------------------------")
+    print("--------------------------------------------------------")
+    print("--------------------------------------------------------")
+    nodos = listar_nodos('./Json/General Oct 2023 v2.json')
+    print(nodos)
+    """
 
